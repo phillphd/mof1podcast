@@ -36,7 +36,7 @@ setcookie($cookie_name, $cookie_value, time() + (604800 * 30), "/"); // 604800 =
 
 <body <?php body_class(); ?>>
 
-<?php if(!isset($_COOKIE['sw_modal'])) { ?>
+<!-- <?php if(!isset($_COOKIE['sw_modal'])) { ?>
 	<div class="popup-curtain">
 		<div class="popup-modal">
 			<a href="#!" class="modal-close"><?php include 'assets/src/img/modal/close.svg'; ?></a>
@@ -82,7 +82,7 @@ setcookie($cookie_name, $cookie_value, time() + (604800 * 30), "/"); // 604800 =
 			</div>
 		</div>
 	</div>
-<?php } ?>
+<?php } ?> -->
 
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'launchframe' ); ?></a>
