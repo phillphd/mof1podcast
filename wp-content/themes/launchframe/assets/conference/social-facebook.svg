@@ -1,0 +1,22 @@
+<svg width="8px" height="13px" viewBox="0 0 8 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path id="path-1" d="M0,0.0256563877 L7.25705727,0.0256563877 L7.25705727,14 L0,14 L0,0.0256563877 Z"></path>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#F13E2E" offset="0%"></stop>
+            <stop stop-color="#EF227A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mof1-Conf-Coming-Soon" transform="translate(-668.000000, -1070.000000)">
+            <g id="Shape-+-Path-+-Clip-2-+-Fill-1" transform="translate(668.000000, 1069.000000)">
+                <g id="Clip-2-+-Fill-1">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M4.7104141,14.9743436 L4.7104141,8.60002643 L6.85007048,8.60002643 L7.17040529,6.11579736 L4.7104141,6.11579736 L4.7104141,4.52972687 C4.7104141,3.81048458 4.91011454,3.32029956 5.94155066,3.32029956 L7.25705727,3.31974449 L7.25705727,1.09787665 C7.02948018,1.06765639 6.24862555,1 5.3401674,1 C3.44356828,1 2.1450837,2.15768282 2.1450837,4.28377093 L2.1450837,6.11579736 L0,6.11579736 L0,8.60002643 L2.1450837,8.60002643 L2.1450837,14.9743436 L4.7104141,14.9743436 Z" id="Fill-1" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

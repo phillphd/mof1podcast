@@ -1,0 +1,28 @@
+<svg width="78px" height="78px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 80 80" enable-background="new 0 0 80 80" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<g>
+				<defs>
+					<circle id="SVGID_31_" cx="40" cy="40.2" r="31"/>
+				</defs>
+				<clipPath id="SVGID_2_">
+					<use xlink:href="#SVGID_31_"  overflow="visible"/>
+				</clipPath>
+				<g clip-path="url(#SVGID_2_)">
+					<g>
+						<rect x="13.4" y="30" fill="#FBAC18" width="3.3" height="20.3"/>
+						<rect x="6.1" y="30" fill="#FDD005" width="7.4" height="20.3"/>
+						<rect x="16.8" y="30" fill="#EF3E24" width="12.9" height="20.3"/>
+						<rect x="29.7" y="30" fill="#1799D6" width="17.7" height="20.3"/>
+						<rect x="57" y="30" fill="#B7D433" width="15.5" height="20.3"/>
+					</g>
+					<rect x="50.7" y="24" fill="#D1D3D4" width="3" height="32.4"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<path fill="#A7A9AC" d="M40,72.2c-17.6,0-32-14.4-32-32c0-17.6,14.4-32,32-32s32,14.4,32,32C72,57.8,57.6,72.2,40,72.2z M40,10.2
+		c-16.5,0-30,13.5-30,30s13.5,30,30,30s30-13.5,30-30S56.5,10.2,40,10.2z"/>
+</g>
+</svg>

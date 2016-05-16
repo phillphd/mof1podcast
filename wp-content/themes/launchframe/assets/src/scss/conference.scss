@@ -1,0 +1,204 @@
+.page-conference {
+	background-color: #EDE4E4;
+	.container {
+		padding: 0 20px;
+    	overflow: hidden;
+    	@media #{map-get($breakpoints, xs)} {
+    		padding: 0;
+		}
+	}
+	h4 {
+		font-family: 'Cardo', serif;
+		font-size: 2.2rem;
+		letter-spacing: 0;
+		text-transform: none;
+		color: fade-out(#EDE4E4, .6);
+	}
+	h5 {
+		font-family: 'GothamBook';
+		font-size: 1.4rem;
+		font-weight: 700;
+		letter-spacing: 4px;
+		text-transform: uppercase;
+		color: #F9F1F1;
+	}
+	.text-brand {
+		color: #F13E2E;
+	}
+
+	.display-mobile {
+		display: block;
+		@media #{map-get($breakpoints, md)} {
+			display: none;
+		}
+	}
+	.display-desktop {
+		display: none;
+		@media #{map-get($breakpoints, md)} {
+			display: block;
+		}
+	}
+
+	.the-mof1-mark {
+		position: relative;
+		&:before,
+		&:after {
+			content: '';
+			position: absolute;
+			top: 40%;
+			right: 0;
+			height: 1px;
+			width: 60px;
+			background-color: fade-out(#F9F1F1, .4);
+			@media #{map-get($breakpoints, sm)} {
+    			width: 120px;
+			}
+			@media #{map-get($breakpoints, md)} {
+    			width: 60px;
+			}
+			@media #{map-get($breakpoints, lg)} {
+    			width: 140px;
+			}
+		}
+		&:before {
+			left: -10px;
+			@media #{map-get($breakpoints, md)} {
+				left: -20px;
+			}
+			@media #{map-get($breakpoints, lg)} {
+				left: -80px;
+			}
+		}
+		&:after {
+			right: -10px;
+			@media #{map-get($breakpoints, md)} {
+				right: -20px;
+			}
+			@media #{map-get($breakpoints, lg)} {
+				right: -80px;
+			}
+		}
+	}
+
+	.big-mof1 {
+		max-width: 100%;
+		width: 200px;
+		@media #{map-get($breakpoints, md)} {
+			width: 247px;
+		}
+	}
+	.big-conference {
+		max-width: 100%;
+		height: 140px;
+		@media #{map-get($breakpoints, md)} {
+			height: 222px;
+		}
+	}
+	
+	.ninja-forms-form {
+		margin: 0;
+	}
+	.ninja-forms-cont {
+		padding: 3px;
+		border: 6px solid #F13E2E;
+		border-image: -webkit-linear-gradient(#F13E2E, #EF227A) 30% round;
+		border-image: -o-linear-gradient(#F13E2E, #EF227A) 30% round;
+		border-image: linear-gradient(#F13E2E, #EF227A) 30% round;
+		box-shadow: 0 2px 4px 0 fade-out(#000, .5);
+		.ninja-forms-required-items {
+			display: none;
+		}
+		.field-wrap {
+			display: inline-block;
+			float: left;
+			margin: 0;
+			&.text-wrap {
+				width: 70%;
+				input {
+					color: #F13E2E;
+				}
+			}
+			&.submit-wrap {
+				position: relative;
+				width: 30%;
+				&:after {
+					content: '';
+					position: absolute;
+					top: -9px;
+					left: -9px;
+					height: 60px;
+					width: 6px;
+					background-image: -webkit-linear-gradient(#F13E2E, #EF227A);
+					background-image: -o-linear-gradient(#F13E2E, #EF227A);
+					background-image: linear-gradient(#F13E2E, #EF227A);
+				}
+				input {
+					padding: 0 0;
+					width: 100%;
+					background-image: -webkit-linear-gradient(#F13E2E, #EF227A);
+					background-image: -o-linear-gradient(#F13E2E, #EF227A);
+					background-image: linear-gradient(#F13E2E, #EF227A);
+					transition: .4s;
+					&:hover {
+						color: #F13E2E;
+					    background-image: -webkit-linear-gradient(#F9F1F1, #F9F1F1);
+					    background-image: -o-linear-gradient(#F9F1F1, #F9F1F1);
+					    background-image: linear-gradient(#F9F1F1, #F9F1F1);
+					}
+				}
+			}
+			input {
+				margin: 0;
+				height: 42px;
+				font-family: 'GothamBook';
+				font-size: 1.2rem;
+    			letter-spacing: 1px;
+				font-weight: 700;
+				text-transform: uppercase;
+				color: #F9F1F1;
+				text-shadow: none;
+				background-color: transparent;
+				border: 0;
+				border-radius: 0;
+				@media #{map-get($breakpoints, md)} {
+					font-size: 1.4rem;
+					letter-spacing: 4px;
+				}
+			}
+		}
+	}
+
+	footer {
+		position: relative;
+		margin-bottom: 0;
+		padding: 50px 0 58px;
+		background-color: #EDE4E4;
+		&:after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 17px;
+			width: 100%;
+			background-image: -webkit-linear-gradient(#F13E2E, #EF227A);
+			background-image: -o-linear-gradient(#F13E2E, #EF227A);
+			background-image: linear-gradient(#F13E2E, #EF227A);
+		}
+		.row {
+			border: 0;
+		}
+		.social-list {
+			li {
+				margin: 0 17px;
+				display: inline-block;
+				&:last-child svg path {
+					fill: inherit;
+				}
+			}
+			svg {
+				height: 14px;
+				width: auto;
+			}
+		}
+	}
+}

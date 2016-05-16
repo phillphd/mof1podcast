@@ -1,0 +1,32 @@
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+);
+
+$vertical-pad-base: 14px;
+
+$button-base-vertical-padding: 12px;
+$button-base-horizontal-padding: 16px;
+
+////// Colors
+$primary: #FBC230;
+$secondary: #BCBEC0;
+
+$white: #fff;
+
+$darker-gray: #58595B;
+$dark-gray: lighten(#58595B, 10%);
+$gray: lighten(#58595B, 20%);
+$light-gray: #F1F2F2;
+$lighter-gray: lighten(#F1F2F2, 10%);
+
+$body-font: "Georgia", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$body-line-height: 1.6;
+$body-font-size: 16px;
+$body-color: $darker-gray;
+$grid_breakpoint_space: 40;
+
+$header-font: "GothamBold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
