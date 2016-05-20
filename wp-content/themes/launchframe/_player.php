@@ -113,10 +113,10 @@
 		<div class="col-xs-12" style="padding: 8px; padding-bottom: 0;">
 			<div class="ms-contain">
 				<a class="social-links social-padding" href="https://www.facebook.com/Mof1podcast"><i class="icon-facebook"></i></a><a href="https://twitter.com/Mof1podcast" class="social-links"><i class="icon-twitter"></i></a><a href="https://instagram.com/Mof1podcast" class="social-links"><i class="icon-instagram"></i></a>
-				<a href="https://itunes.apple.com/us/podcast/master-of-one-podcast/id886640644?mt=2" style="position: inherit;">
+				<a href="https://itunes.apple.com/us/podcast/mof1-podcast/id1074500173?mt=2" style="position: inherit;">
 					<?php include 'assets/src/img/icon_itunes.svg'; ?>
 				</a>
-				<a href="http://www.stitcher.com/podcast/master-of-one" style="position: inherit;">
+				<a href="http://www.stitcher.com/podcast/mof1-podcast" style="position: inherit;">
 					<?php include 'assets/src/img/icon_stitcher.svg'; ?>
 				</a>
 			</div>
