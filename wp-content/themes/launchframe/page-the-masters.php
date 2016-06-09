@@ -35,7 +35,6 @@ get_header(); ?>
 			<div class="col-xs-12 col-md-8 col-xl-7 vp-xs-top-1 u-pad-left u-pad-right">
 				<h2>Why TV &amp; Film</h2>
 				<p><?php the_field('why_tv_&_film') ?></p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae nunc eu leo pretium finibus ut sed ipsum. Proin venenatis massa ligula, semper consequat urna porta at. Praesent pulvinar risus vitae ipsum vestibulum pulvinar. Cras consequat libero vel commodo vestibulum. Vestibulum pellentesque sem ut accumsan pretium. Vivamus aliquet mollis risus, sed malesuada metus vestibulum sit amet. Nunc pharetra porttitor pharetra. Aliquam ac mauris cursus, viverra massa eu, pharetra nisi. Suspendisse cursus eleifend tortor et vestibulum.</p>
 			</div>
 		</div>
 	</div>
