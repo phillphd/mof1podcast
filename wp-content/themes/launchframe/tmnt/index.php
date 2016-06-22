@@ -61,7 +61,7 @@
                                                 <p>No matter where you look on this poster your eyes will have a treat! Chuck full of facts, stats, and info about everyone’s favorite nerdy turtle as well as the film that brought the cultural icons to life!</p>
                                                 <p>It also features some of the key characters that played a roll in the 90’s film like the Foot Clan, Master Splinter, and everyone’s favorite hockey enthusiast/vigilante, Casey Jones.</p>
                                             </div>
-                                            <div class="col-lg-5">
+                                            <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-5 col-lg-offset-0 vm-xs-bottom-1 text-center">
                                                 <img class="print-section__print" src="http://mof1podcast.com/wp-content/themes/launchframe/tmnt/assets/images/weapon_detail.png" />
                                             </div>
                                         </div>
