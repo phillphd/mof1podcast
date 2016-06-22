@@ -96,7 +96,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <ul class="social-share-links bg-gold">
-                            <li><a href="https://twitter.com/home?status=Mof1%20Podcast%20Exclusive%3A%20Tom%20Whalen's%20TMNT%20print%20for%20Info-Rama%20gallery%20at%20Mondo%20mof1podcast.com/inforama%20%40mondonews%20%40inforamart%20%40strongstuff"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com/home?status=Mof1%20Podcast%20Exclusive%3A%20Tom%20Whalen's%20TMNT%20print%20for%20Info-Rama%20gallery%20at%20Mondo%20mof1podcast.com/inforama%20%40mondonews%20%40inforamaart%20%40strongstuff"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                             <li><a href="https://www.facebook.com/sharer/sharer.php?u=mof1podcast.com/inforama"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             <li><a href="http://www.reddit.com/submit?url=mof1podcast.com/inforama&title=Mof1%20Podcast%20Exclusive%3A%20Tom%20Whalen's%20TMNT%20print%20for%20Info-Rama%20gallery%20at%20Mondo"><i class="fa fa-reddit" aria-hidden="true"></i></a></li>
                             <li><a href="https://plus.google.com/share?url=https%3A//www.facebook.com/sharer/sharer.php?u=mof1podcast.com/inforama"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
