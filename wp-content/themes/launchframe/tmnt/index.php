@@ -37,17 +37,17 @@
             <?php include 'assets/images/mondo-info.svg'; ?>
         </header>
 
-        <section>
+        <section class="lead-in-text">
             <div class="container vp-xs-top-2 vp-xs-bottom-2">
                 <div class="row">
                     <div class="col-md-6">
-                        <h2>As we continue our month of nothing but Ninja Turtles, we are excited to announce that Mondo—known to be one of the leading authorities when it comes to pop culture art and collectibles—is at it again with a beautiful new print of the “Hero in a half-shell” by Tom Whalen!</h2>
-                        <p>The Donatello print—among many others—is part of the Info·Rama 3-man show, opening on Friday, June 24 from 7-10pm. The show will run June 24 - July 9, Tuesdays through Saturdays noon-6pm. Other artists included in the show are UK artist, Matt Taylor and Info·Rama founder Kevin Tong! <em>(All three artists will be in attendance at the show opener this Friday)</em></p>
+                        <h2>As we continue our month of nothing but Ninja Turtles, we are excited to announce that <a href="http://mondotees.com" target="_blank">Mondo</a>—known to be one of the leading authorities when it comes to pop culture art and collectibles—is at it again with a beautiful new print of the “Hero in a half-shell” by <a href="http://www.strongstuff.net" target="_blank">Tom Whalen</a>!</h2>
+                        <p>The Donatello print—among many others—is part of the Info·Rama 3-man show, opening on Friday, June 24 from 7-10pm at Mondo Gallery in Austin. The show will run June 24 - July 9, Tuesdays through Saturdays noon-6pm. Other artists included in the show are UK artist, <a href="http://www.matttaylor.co.uk" target="_blank">Matt Taylor</a> and Info·Rama founder <a href="http://tragicsunshine.com" target="_blank">Kevin Tong</a>! <em>(All three artists will be in attendance at the show opener this Friday)</em></p>
                     </div>
                     <div class="col-md-6">
-                        <p>Founded in 2014, Info·Rama strives to create infographic posters that are meticulously researched, illustrated, printed, and delivered. All of their products are made in America in small quantities.</p>
-                        <p>Listen to the <em>exclusive interview</em> with all three artists on Friday’s episode of the Master of One Podcast (Mof1). Hear Tom, Matt, and Kevin give a behind the scenes look at some of the other pieces from the show, as well as what it’s like to put a gallery show together that perfectly marries information and art!</p>
-                        <p>Catch up on the whole month of Turtles (including interviews with comic artist Jon Sommariva and creator Kevin Eastman) on the Mof1 Archive, and we will see you in Austin for the gallery show!</p>
+                        <p>Founded in 2014, <a href="http://inforamaart.com" target="_blank">Info·Rama</a> strives to create infographic posters that are meticulously researched, illustrated, printed, and delivered. All of their products are made in America in small quantities.</p>
+                        <p>Listen to the <em>exclusive interview</em> with all three artists on Friday’s episode of the <a href="http://mof1podcast.com" target="_blank">Master of One Podcast</a> (Mof1). Hear Tom, Matt, and Kevin give a behind the scenes look at some of the other pieces from the show, as well as what it’s like to put a gallery show together that perfectly marries information and art!</p>
+                        <p>Catch up on the whole month of Turtles (including interviews with comic artist <a href="http://mof1podcast.com/episode-25-2-sandbox-interview-with-artist-for-the-idw-tmnt-comics-jon-sommariva-aka-red-j/" target="_blank">Jon Sommariva</a> and creator <a href="http://mof1podcast.com/episode-24-2-sandbox-interview-with-co-creater-of-the-teenage-mutant-ninja-turtles-kevin-eastman/" target="_blank">Kevin Eastman</a>) on the <a href="http://mof1podcast.com/archive" target="_blank">Mof1 Archive</a>, and we will see you in Austin for the gallery show!</p>
                     </div>
                 </div>
             </div>
@@ -129,8 +129,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                        *All artwork is property of Tom Whalen, Mondo, and Info·Rama. The Teenage Mutant Ninja Turtles&trade; are owned by Nickelodeon.&trade;<br />
+                    <div class="col-md-10 col-md-offset-1 fine-print">
+                        *All artwork is property of <a href="http://www.strongstuff.net" target="_blank">Tom Whalen</a>, <a href="http://mondotees.com" target="_blank">Mondo</a>, and <a href="http://inforamaart.com" target="_blank">Info·Rama</a>. The Teenage Mutant Ninja Turtles&trade; are owned by Nickelodeon.&trade;<br />
                         Images strictly used for promotional purposes only with permission from the artist and gallery. Go to the show... Buy your own... Support great art!
                     </div>
                 </div>

@@ -7378,6 +7378,28 @@ body {
   background-color: #f3f1da;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+  body .print-section,
+  body .lead-in-text,
+  body .social-share-links,
+  body footer {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px); }
+  body.ready .print-section,
+  body.ready .lead-in-text,
+  body.ready .social-share-links,
+  body.ready footer {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transition: .8s .3s;
+            transition: .8s .3s; }
+  body.ready .lead-in-text {
+    -webkit-transition: .8s .1s;
+            transition: .8s .1s; }
+  body.ready footer {
+    -webkit-transition: .8s .5s;
+            transition: .8s .5s; }
 
 header {
   padding: 30px 0;
@@ -7425,6 +7447,35 @@ p {
   @media (min-width: 992px) {
     p {
       font-size: 1.1rem; } }
+
+.lead-in-text a,
+.fine-print a {
+  position: relative;
+  color: #792257;
+  -webkit-transition: .15s ease-out;
+          transition: .15s ease-out; }
+  .lead-in-text a::after,
+  .fine-print a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 1px;
+    background-color: rgba(160, 132, 99, 0.8);
+    -webkit-transition: .15s ease-out;
+            transition: .15s ease-out; }
+  .lead-in-text a:hover,
+  .fine-print a:hover {
+    color: #a08463;
+    text-decoration: none;
+    -webkit-transition: .2s ease-out;
+            transition: .2s ease-out; }
+    .lead-in-text a:hover::after,
+    .fine-print a:hover::after {
+      width: 100%;
+      -webkit-transition: .2s ease-out;
+              transition: .2s ease-out; }
 
 .print-section {
   padding: 30px 20px 10px;
@@ -7504,7 +7555,13 @@ p {
     display: inline-block;
     padding: 0 10px; }
     .social-share-links li a {
-      color: #f3f1da; }
+      color: #f3f1da;
+      -webkit-transition: .3s ease-out;
+              transition: .3s ease-out; }
+      .social-share-links li a:hover {
+        color: #792257;
+        -webkit-transition: .15s ease-out;
+                transition: .15s ease-out; }
 
 .social-links {
   margin: 0;
@@ -7516,7 +7573,13 @@ p {
     display: inline-block;
     padding: 0 6px; }
     .social-links li a {
-      color: #792257; }
+      color: #792257;
+      -webkit-transition: .15s ease-out;
+              transition: .15s ease-out; }
+      .social-links li a:hover {
+        color: #a08463;
+        -webkit-transition: .3s ease-out;
+                transition: .3s ease-out; }
 
 footer {
   padding: 40px 30px;
