@@ -7471,6 +7471,7 @@ p {
     color: #f3f1da;
     z-index: 9; }
   .print-section .signature {
+    margin-right: 25px;
     font-size: 1rem;
     text-align: right; }
     @media (min-width: 992px) {

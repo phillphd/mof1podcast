@@ -3,9 +3,24 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Launchframe Static</title>
+        <title>Mondo + Info·Rama: Donatello by Tom Whalen</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Mondo + Info·Rama: Donatello by Tom Whalen" />
+        <meta property="og:description" content="Mof1 Podcast Exclusive: Tom Whalen's TMNT print for Info-Rama gallery at Mondo" />
+        <meta property="og:url" content="http://mof1podcast.com/inforama" />
+        <meta property="og:site_name" content="Mof1 Podcast" />
+        <meta property="og:image" content="http://mof1podcast.com/wp-content/themes/launchframe/tmnt/assets/images/donatello_share.png" />
+
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content="Mondo + Info·Rama: Donatello by Tom Whalen"/>
+        <meta name="twitter:description" content="Mof1 Podcast Exclusive: Tom Whalen's TMNT print for Info-Rama gallery at Mondo"/>
+        <meta name="twitter:site" content="@mof1podcast"/>
+        <meta name="twitter:image" content="http://mof1podcast.com/wp-content/themes/launchframe/tmnt/assets/images/donatello_share.png"/>
+        <meta name="twitter:creator" content="@mof1podcast"/>
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->

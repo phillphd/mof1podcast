@@ -109,6 +109,7 @@ p {
 		z-index: 9;
 	}
 	.signature {
+		margin-right: 25px;
 		font-size: 1rem;
 		text-align: right;
 		@include media-breakpoint-up(lg) {
