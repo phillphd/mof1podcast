@@ -42,10 +42,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="print-section" style="background-image: url('/assets/images/donatello_print.png');">
+                        <div class="print-section" style="background-image: url('http://mof1podcast.com/wp-content/themes/launchframe/tmnt/assets/images/donatello_print.png');">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <img class="print-section__print" src="/assets/images/donatello_print.png" />
+                                    <img class="print-section__print" src="http://mof1podcast.com/wp-content/themes/launchframe/tmnt/assets/images/donatello_print.png" />
                                 </div>
                                 <div class="col-md-8">
                                     <div class="print-section__title">
@@ -55,14 +55,14 @@
                                     </div>
                                     <div class="print-section__description">
                                         <p class="text-center">The turtle that is commonly accepted to be the smartest of the group, Donatello—adorned with the purple bandanna—uses his brains and his bo staff to out-smart his foes. And oh yeah, let’s not forget, he “does machines.” Whalen brings back the visionary look of the Jim Henson Creature Shop as inspiration for this piece.</p>
-                                        <img class="print-section__print" style="margin: 15px 0 35px;" src="/assets/images/character_detail.png" />
+                                        <img class="print-section__print" style="margin: 15px 0 35px;" src="http://mof1podcast.com/wp-content/themes/launchframe/tmnt/assets/images/character_detail.png" />
                                         <div class="row">
                                             <div class="col-lg-7">
                                                 <p>No matter where you look on this poster your eyes will have a treat! Chuck full of facts, stats, and info about everyone’s favorite nerdy turtle as well as the film that brought the cultural icons to life!</p>
                                                 <p>It also features some of the key characters that played a roll in the 90’s film like the Foot Clan, Master Splinter, and everyone’s favorite hockey enthusiast/vigilante, Casey Jones.</p>
                                             </div>
                                             <div class="col-lg-5">
-                                                <img class="print-section__print" src="/assets/images/weapon_detail.png" />
+                                                <img class="print-section__print" src="http://mof1podcast.com/wp-content/themes/launchframe/tmnt/assets/images/weapon_detail.png" />
                                             </div>
                                         </div>
                                         <p>Now everyone knows you can’t have just one turtle print on your wall. That’s why Tom has created three other pieces as a perfect compliment to our purple-bandanna friend.</p>
