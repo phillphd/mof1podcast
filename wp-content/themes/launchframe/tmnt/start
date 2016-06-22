@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+require 'dotenv'
+class Installer
+  def run
+    Dotenv.load
+    system("bundle install")
+    system("npm install && bower install")
+    puts "The install has completed. Make sure you read the logs for any extra relevant info."
+  end
+end
+
+i = Installer.new
+i.run
