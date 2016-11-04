@@ -107,4 +107,23 @@
 			}
 		}
 	}
+	&.on-page {
+		position: relative;
+		display: block;
+		opacity: 1;
+		height: auto;
+		margin: 20px 0 30px;
+		.popup-modal {
+			position: relative;
+			display: block;
+			opacity: 1;
+			height: auto;
+			top: 0;
+			transform: none;
+			padding: 50px 0;
+		}
+		.modal-close {
+			display: none;
+		}
+	}
 }

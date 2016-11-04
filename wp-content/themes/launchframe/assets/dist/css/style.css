@@ -3632,3 +3632,21 @@ div.mejs-speed-button {
               transition: .3s; }
     .popup-curtain .modal-close:hover .cls-1 {
       stroke: #EF6222; }
+  .popup-curtain.on-page {
+    position: relative;
+    display: block;
+    opacity: 1;
+    height: auto;
+    margin: 20px 0 30px; }
+    .popup-curtain.on-page .popup-modal {
+      position: relative;
+      display: block;
+      opacity: 1;
+      height: auto;
+      top: 0;
+      -webkit-transform: none;
+          -ms-transform: none;
+              transform: none;
+      padding: 50px 0; }
+    .popup-curtain.on-page .modal-close {
+      display: none; }
