@@ -14,7 +14,7 @@ get_header(); ?>
 				<p>Official Podcast Partner</p>
 			</div>
 		</div>
-		<div class="row">z
+		<div class="row">
 			<div class="col-xxs-12 col-md-8 col-md-offset-2 modal-content u-text-center" style="border-top: 1px solid #FFF">
 				<p>A life-changing experience, no matter where you’re located!</p>
 				<p>We’re proud to partner with reimagine to provide livestream tickets so that you can engage in the conference from home, from work, from anywhere! </p>
