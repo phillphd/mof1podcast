@@ -104,7 +104,7 @@ function launchframe_scripts() {
 	wp_enqueue_style( 'launchframe-style', get_stylesheet_uri() );
 	wp_enqueue_script( 'lf-modernizr', 'https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js', null, '201501.0', false);
 	wp_enqueue_script( 'lf-jquery', 'https://code.jquery.com/jquery-1.11.2.min.js', null, '201501.1', true);
-	wp_enqueue_style( 'launchframe-style-custom', get_template_directory_uri() . "/assets/dist/css/style.css?v=1.55"  );
+	wp_enqueue_style( 'launchframe-style-custom', get_template_directory_uri() . "/assets/dist/css/style.css"  );
 	wp_enqueue_script( 'buildjs', get_template_directory_uri() . '/assets/dist/js/script.js', array( 'lf-jquery' ), '201501.2', true );
 	wp_enqueue_script( 'videjs', get_template_directory_uri() . '/inc/jquery.vide.js', array( 'lf-jquery' ), '201501.2', true );
 	// GO LIVE - min files

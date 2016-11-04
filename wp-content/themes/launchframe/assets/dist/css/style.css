@@ -3638,6 +3638,9 @@ div.mejs-speed-button {
     opacity: 1;
     height: auto;
     margin: 20px 0 30px; }
+    .popup-curtain.on-page::after {
+      position: absolute;
+      height: 100%; }
     .popup-curtain.on-page .popup-modal {
       position: relative;
       display: block;

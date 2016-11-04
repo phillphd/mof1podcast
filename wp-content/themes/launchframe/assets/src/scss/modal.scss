@@ -113,6 +113,10 @@
 		opacity: 1;
 		height: auto;
 		margin: 20px 0 30px;
+		&::after {
+			position: absolute;
+			height: 100%;
+		}
 		.popup-modal {
 			position: relative;
 			display: block;
