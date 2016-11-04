@@ -36,53 +36,27 @@ setcookie($cookie_name, $cookie_value, time() + (604800 * 30), "/"); // 604800 =
 
 <body <?php body_class(); ?>>
 
-<!-- <?php if(!isset($_COOKIE['sw_modal'])) { ?>
+<?php if(!isset($_COOKIE['sw_modal'])) { ?>
 	<div class="popup-curtain">
 		<div class="popup-modal">
 			<a href="#!" class="modal-close"><?php include 'assets/src/img/modal/close.svg'; ?></a>
 			<div class="row vp-xxs-top-4 vp-md-top-2">
-				<div class="col-xxs-10 col-xxs-offset-1 modal-logo u-text-center">
-					<?php include 'assets/src/img/modal/modal_logo.svg'; ?>
+				<div class="col-xxs-12 modal-logo u-text-center">
+					<?php include 'assets/src/img/logo-gradient.svg'; ?>
+					<p>Official Podcast Partner</p>
 				</div>
 			</div>
-			<div class="row vp-xxs-top-2 vp-xxs-bottom-3 vp-md-top-3 vp-md-bottom-4">
-				<div class="col-md-6 u-text-center modal-listen">
-					<div class="row">
-						<div class="col-xxs-10 col-xxs-offset-1">
-							<?php include 'assets/src/img/modal/subscribe.svg'; ?>
-						</div>
-					</div>
-					<div class="row vm-sm-top-1 vm-xxs-bottom-1 vm-md-bottom-2">
-						<a href="https://itunes.apple.com/us/podcast/mof1-podcast/id1074500173?mt=2" target="_blank"><?php include 'assets/src/img/modal/itunes.svg'; ?></a>
-						<a href="http://www.stitcher.com/podcast/mof1-podcast" target="_blank"><?php include 'assets/src/img/modal/stitcher.svg'; ?></a>
-					</div>
-					<div class="row wtb-sw">
-						<h5>Star Wars Day Releases</h5>
-						<ul>
-							<a href="http://spoke-art.com/collections/joshua-budich" target="_blank">
-								<li>
-									Spoke Art's Shop:<br />
-									Kylo Ren Laser Etching
-								</li>
-							</a>
-							<a href="http://joshuabudich.bigcartel.com" target="_blank">
-								<li>
-									Joshua's Shop:<br />
-									Vader, Fett, Tie Troop Laser
-								</li>
-							</a>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-6 u-text-center modal-watch">
-					<a href="http://audio.simplecast.com/37021.mp3" target="_blank">
-						<img src="<?php bloginfo('template_directory');?>/assets/src/img/modal/sw_promo.png">
-					</a>
+			<div class="row">
+				<div class="col-xxs-12 col-md-8 col-md-offset-2 modal-content u-text-center" style="border-top: 1px solid #FFF">
+					<p>A life-changing experience, no matter where you’re located!</p>
+					<p>We’re proud to partner with reimagine to provide livestream tickets so that you can engage in the conference from home, from work, from anywhere! </p>
+					<?php include 'assets/src/img/reimagine.svg'; ?>
+					<a href="https://reimagineconference.com/#tickets" target="_blank" class="button">Get Your Tickets Now</a>
 				</div>
 			</div>
 		</div>
 	</div>
-<?php } ?> -->
+<?php } ?>
 
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'launchframe' ); ?></a>
