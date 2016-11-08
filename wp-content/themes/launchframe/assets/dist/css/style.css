@@ -3568,7 +3568,7 @@ div.mejs-speed-button {
             transition: opacity .2s ease .01s, z-index .01s; }
   .popup-curtain .popup-modal {
     position: absolute;
-    margin: 0 auto;
+    margin: 10px auto;
     left: 0;
     right: 0;
     top: 0;
@@ -3578,10 +3578,7 @@ div.mejs-speed-button {
     background-color: transparent; }
     @media only screen and (min-width: 768px) {
       .popup-curtain .popup-modal {
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-                transform: translateY(-50%); } }
+        margin: 100px auto; } }
   .popup-curtain .modal-logo {
     position: relative; }
     .popup-curtain .modal-logo svg {
