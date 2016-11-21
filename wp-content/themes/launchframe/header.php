@@ -37,7 +37,7 @@ setcookie($cookie_name, $cookie_value, time() + (604800 * 30), "/"); // 604800 =
 <body <?php body_class(); ?>>
 
 <?php if(!isset($_COOKIE['sw_modal']) && !is_page('reimagine')) { ?>
-	<div class="popup-curtain">
+	<!-- <div class="popup-curtain">
 		<div class="popup-modal">
 			<a href="#!" class="modal-close"><?php include 'assets/src/img/modal/close.svg'; ?></a>
 			<div class="row vp-xxs-top-4 vp-md-top-2">
@@ -55,7 +55,7 @@ setcookie($cookie_name, $cookie_value, time() + (604800 * 30), "/"); // 604800 =
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 <?php } ?>
 
 <div id="page" class="hfeed site">
