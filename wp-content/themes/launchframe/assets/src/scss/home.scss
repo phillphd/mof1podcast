@@ -88,6 +88,7 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        transition: .5s;
     }
     .u-bg-overlay {
         background-color: fade-out(#000, .25);
@@ -386,6 +387,7 @@
 
     .post {
         position: relative;
+        overflow: hidden;
         width: 100%;
         height: 200px;
         margin-bottom: 12px;
@@ -397,6 +399,16 @@
         }
         @media only screen and (min-width: 992px) {
             height: 348px;
+        }
+        &:hover {
+            @media only screen and (min-width: 768px) {
+                .u-bg-img {
+                    top: -8px;
+                    left: -8px;
+                    width: calc(100% + 16px);
+                    height: calc(100% + 16px);
+                }
+            }
         }
         &:last-child {
             margin-right: 0;
