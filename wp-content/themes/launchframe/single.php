@@ -16,7 +16,7 @@ a:active {
 .tweet ul {
 	margin: 0;
 	padding: 5px 10px;
-	border: 2px solid #000;
+	border: 2px solid #EF227A;
 }
 .arrow-down {
 	position: relative;
@@ -26,7 +26,7 @@ a:active {
 	float: right;
 	border-left: 50px solid transparent;
 	border-right: 0 solid transparent;
-	border-top: 20px solid #000;
+	border-top: 20px solid #EF227A;
 }
 .arrow-down:after {
 	position: absolute;
