@@ -7,7 +7,7 @@ get_header(); ?>
 
 <section>
 	<div class="hero">
-		<div class="abs-full u-bg-img hero__bg" style="background-image: url('http://2e4fmm4173kfqb7uraadejq8.wpengine.netdna-cdn.com/wp-content/uploads/2016/11/Mof1_Episode46-2_Promo-1024x1024.jpg');"></div>
+		<div class="abs-full u-bg-img hero__bg" style="background-image: url('http://2e4fmm4173kfqb7uraadejq8.wpengine.netdna-cdn.com/wp-content/uploads/2016/12/Mof1_Episode51-1_Promo-1024x1024.jpg');"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4" style="position: relative;">
@@ -23,7 +23,7 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="hero__artwork">
-			<div class="abs-full u-bg-img" style="background-image: url('http://2e4fmm4173kfqb7uraadejq8.wpengine.netdna-cdn.com/wp-content/uploads/2016/11/Mof1_Episode46-2_Promo-1024x1024.jpg');"></div>
+			<div class="abs-full u-bg-img" style="background-image: url('http://2e4fmm4173kfqb7uraadejq8.wpengine.netdna-cdn.com/wp-content/uploads/2016/12/Mof1_Episode51-1_Promo-1024x1024.jpg');"></div>
 		</div>
 	</div>
 </section>
