@@ -334,6 +334,12 @@ a:hover {
   src: url("../fonts/gotham-light-webfont.eot");
   src: url("../fonts/gotham-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-light-webfont.woff") format("woff"), url("../fonts/gotham-light-webfont.ttf") format("truetype"), url("../fonts/gotham-light-webfont.svg#gotham-light-webfont") format("svg"); }
 
+@font-face {
+  font-family: 'upstaterregular';
+  src: url("../fonts/upstater-regular-webfont.woff2") format("woff2"), url("../fonts/upstater-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 .social-links {
   padding-top: 20px; }
   .social-links [class^="icon-"]:before, .social-links [class*=" icon-"]:before {
@@ -3339,7 +3345,7 @@ div.mejs-speed-button {
   margin: 0; }
 
 .home h2, .home .h2 {
-  font-family: 'Upstater', 'Roboto', sans-serif;
+  font-family: 'upstaterregular', 'Roboto', sans-serif;
   font-size: 4.4rem;
   line-height: 1; }
   @media only screen and (min-width: 768px) {
@@ -3845,7 +3851,7 @@ div.mejs-speed-button {
   position: relative;
   padding: 0 26px;
   margin: 0;
-  font-family: 'Upstater', 'Roboto', sans-serif;
+  font-family: 'upstaterregular', 'Roboto', sans-serif;
   font-size: 3rem;
   letter-spacing: .5px;
   line-height: 1;

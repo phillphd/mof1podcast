@@ -211,6 +211,15 @@ a:hover {
        url('../fonts/gotham-light-webfont.svg#gotham-light-webfont') format('svg');
 }
 
+@font-face {
+    font-family: 'upstaterregular';
+    src: url('../fonts/upstater-regular-webfont.woff2') format('woff2'),
+         url('../fonts/upstater-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .social-links {
   padding-top: 20px;
  [class^="icon-"]:before, [class*=" icon-"]:before {
