@@ -158,7 +158,9 @@ h5 {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a { 
-  color: $primary; }
+  color: $primary;
+  transition: .5s;
+}
 a:hover { 
   color: $primary; }
 

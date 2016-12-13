@@ -8,4 +8,5 @@ body {
   font-weight: 400;
   font-family: $body-font;
   color: $darker-gray;
+  -webkit-font-smoothing: antialiased;
 }
