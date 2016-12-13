@@ -79,10 +79,10 @@ get_header(); ?>
 			<div class="post">
 				<div class="abs-full u-bg-img" style="background-image: url('http://mof1podcast.com/wp-content/uploads/2016/12/HMT_ad.jpg');"></div>
 				<div class="abs-full u-bg-overlay" style="background-color: rgba(0,0,0,.3);"></div>
-				<a href="http://mof1podcast.com/episode-50-2-sandbox-interview-with-matt-dawson/" class="post__link"></a>
+				<a href="#!" class="post__link"></a>
 				<div class="post__meta">
 					<h6 class="p">Holiday Meal Time<br />With Friends</h6>
-					<p class="h6">We're collaborating with</p>
+					<p class="h6">We're partnering with Recipe Schmecipe, Old Town Roasting &amp; Salt + Cinnamon to bring you a holiday meal perfect for you and your friends. And you. And there is coffee involved.</p>
 				</div>
 			</div>
 		</div>
