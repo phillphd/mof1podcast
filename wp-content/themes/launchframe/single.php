@@ -7,55 +7,16 @@ get_header(); ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
 
-<style>
-	a,
-	a:visited,
-	.u-color-primary,
-	.button.lg-btn.cta-home-button,
-	.social-links:hover [class^="icon-"]:before, .social-links:hover [class*=" icon-"]:before,
-	#site-navigation ul li a:hover,
-	a.latest-episode:hover,
-	.mc-field-group input[type*="email"] {
-	    color: #<?php the_field('episode_hex_code'); ?>;
-	}
-	.ep-box,
-	.u-bg-darkgray .button.sm-btn,
-	.u-bg-darkgray i[class*="icon-"]:before,
-	.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
-	.mejs-controls .mejs-time-rail .mejs-time-total,
-	.button.lg-btn.cta-home-button,
-	#share-buttons a:hover:after {
-	    border-color: #<?php the_field('episode_hex_code'); ?>;
-	}
-	.ep-box h3,
-	.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
-	.mejs-controls .mejs-time-rail .mejs-time-current,
-	.button.lg-btn.cta-home-button:hover {
-	    background-color: #<?php the_field('episode_hex_code'); ?>;
-	}
-	.header-logo svg .logo-square,
-	.header-logo svg .logo-circle,
-	.header-connect .connect-rss svg path {
-	    fill: #<?php the_field('episode_hex_code'); ?>;
-	}
-	::-moz-selection {
-	    background: #<?php the_field('episode_hex_code'); ?>;
-	}
-
-	::selection {
-	    background: #<?php the_field('episode_hex_code'); ?>;
-	}
-</style>
 <style type="text/css">
 a.latest-episode,
 a:hover,
 a:active {
-	color: #58595B;
+	color: #EF227A;
 }
 .tweet ul {
 	margin: 0;
 	padding: 5px 10px;
-	border: 2px solid #<?php the_field('episode_hex_code'); ?>;
+	border: 2px solid #000;
 }
 .arrow-down {
 	position: relative;
@@ -65,7 +26,7 @@ a:active {
 	float: right;
 	border-left: 50px solid transparent;
 	border-right: 0 solid transparent;
-	border-top: 20px solid #<?php the_field('episode_hex_code'); ?>;
+	border-top: 20px solid #000;
 }
 .arrow-down:after {
 	position: absolute;
@@ -77,7 +38,7 @@ a:active {
 	float: right;
 	border-left: 50px solid transparent;
 	border-right: 0 solid transparent;
-	border-top: 20px solid #fff;
+	border-top: 20px solid #FFF;
 }
 </style>
 

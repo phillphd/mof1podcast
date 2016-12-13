@@ -77,12 +77,12 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="post">
-				<div class="abs-full u-bg-img" style="background-image: url('http://2e4fmm4173kfqb7uraadejq8.wpengine.netdna-cdn.com/wp-content/uploads/2016/12/Mof1_Episode50-2_Promo-1024x1024.jpg');"></div>
+				<div class="abs-full u-bg-img" style="background-image: url('http://mof1podcast.com/wp-content/uploads/2016/12/HMT_ad.jpg');"></div>
 				<div class="abs-full u-bg-overlay" style="background-color: rgba(0,0,0,.3);"></div>
 				<a href="http://mof1podcast.com/episode-50-2-sandbox-interview-with-matt-dawson/" class="post__link"></a>
 				<div class="post__meta">
-					<h6 class="p">Sandbox With Matt Dawson</h6>
-					<p class="h6">The Masters sit down with veteran graphic designer Matt Dawson aka Stay Gray Ponyboy and discuss his work + Crop 2017</p>
+					<h6 class="p">Holiday Meal Time<br />With Friends</h6>
+					<p class="h6">We're collaborating with</p>
 				</div>
 			</div>
 		</div>
