@@ -67,27 +67,23 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="row section__content section__content--big">
-			<!-- <div class="post">
+			<div class="post">
 				<div class="abs-full u-bg-img" style="background-image: url('http://hotseat.mof1podcast.com/wp-content/themes/launchframe/assets/src/img/bg.jpg');"></div>
-				<div class="abs-full u-bg-overlay" style="background-color: rgba(0,0,0,.7);"></div>
+				<div class="abs-full u-bg-overlay" style="background-color: rgba(235,39,123,.7);"></div>
 				<a href="http://hotseat.mof1podcast.com/" class="post__link"></a>
 				<div class="post__meta">
 					<h6 class="p">Hot Seat Interviews</h6>
 					<p class="h6">Listen to interviews with incredible creatives from the floor of ReImagine Conference 2016.</p>
 				</div>
-			</div> -->
-			<div class="post">
-				<div class="abs-full u-bg-img" style="background-image: url('http://mof1podcast.com/wp-content/uploads/2016/12/HMT_ad.jpg');"></div>
-				<div class="abs-full u-bg-overlay" style="background-color: rgba(0,0,0,.9);"></div>
-				<a href="#!" class="post__link"></a>
-				<div class="post__meta">
-					<h6 class="p">Holiday Meal Time<br />With Friends</h6>
-					<p class="h6">We are excited to announce a delicious collaboration with 3 amazing companies, to bring you an amazing holiday meal time! Stay tuned for recipes and products from Recipe Schemcipe, Old Town Roasting, and Salt + Cinnamon. It's coming soon, so keep an eye out!</p>
-				</div>
 			</div>
 			<div class="post">
 				<div class="abs-full u-bg-img" style="background-image: url('http://mof1podcast.com/wp-content/uploads/2016/12/HMT_ad.jpg');"></div>
-				<a href="http://hotseat.mof1podcast.com/" class="post__link"></a>
+				<div class="abs-full u-bg-overlay" style="background-color: rgba(166,20,25,.7);"></div>
+				<!-- <a href="#!" class="post__link"></a> -->
+				<div class="post__meta">
+					<h6 class="p">Holiday Meal Time With Friends</h6>
+					<p class="h6">We are excited to announce a delicious collaboration to bring you an amazing holiday meal time! Stay tuned for recipes and products from Recipe Schemcipe, Old Town Roasting, and Salt + Cinnamon. It's coming soon, so keep an eye out!</p>
+				</div>
 			</div>
 		</div>
 	</div>

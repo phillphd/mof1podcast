@@ -3621,6 +3621,7 @@ div.mejs-speed-button {
     padding: 16px 55px 18px 20px;
     margin-top: 30px;
     margin-bottom: 5px;
+    color: #FFF;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 3px;
     -webkit-transition: .5s;
