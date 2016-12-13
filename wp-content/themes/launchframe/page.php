@@ -15,16 +15,9 @@ get_header(); ?>
 <section>
 	<div class="container">
 		<div class="row vp-xs-top-1">
-			<div class="col-md-12">
+			<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
 				<?php while ( have_posts() ) : the_post(); ?>
 					<?php get_template_part( 'content', 'page' ); ?>
-
-					<?php
-						// If comments are open or we have at least one comment, load up the comment template
-						// if ( comments_open() || get_comments_number() ) :
-						// 	comments_template();
-						// endif;
-					?>
 				<?php endwhile; // end of the loop. ?>
 			</div>
 		</div>
