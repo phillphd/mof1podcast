@@ -79,10 +79,10 @@ get_header(); ?>
 			<div class="post">
 				<div class="abs-full u-bg-img" style="background-image: url('http://mof1podcast.com/wp-content/uploads/2016/12/HMT_ad.jpg');"></div>
 				<div class="abs-full u-bg-overlay" style="background-color: rgba(166,20,25,.7);"></div>
-				<!-- <a href="#!" class="post__link"></a> -->
+				<a href="http://mof1podcast.com/holiday-meal-time-with-friends/" class="post__link"></a>
 				<div class="post__meta">
 					<h6 class="p">Holiday Meal Time With Friends</h6>
-					<p class="h6">We are excited to announce a delicious collaboration to bring you an amazing holiday meal time! Stay tuned for recipes and products from Recipe Schemcipe, Old Town Roasting, and Salt + Cinnamon. It's coming soon, so keep an eye out!</p>
+					<p class="h6">We are excited to announce a delicious collaboration to bring you an amazing holiday meal time! Check it out!</p>
 				</div>
 			</div>
 		</div>
