@@ -7,23 +7,23 @@ get_header(); ?>
 
 <section>
 	<div class="hero">
-		<div class="abs-full u-bg-img hero__bg" style="background-image: url('http://2e4fmm4173kfqb7uraadejq8.wpengine.netdna-cdn.com/wp-content/uploads/2016/12/Mof1_Episode51-1_Promo-1024x1024.jpg');"></div>
+		<div class="abs-full u-bg-img hero__bg" style="background-image: url('http://mof1podcast.com/wp-content/uploads/2016/12/Mof1_Episode51-2_Promo-1024x1024.jpg');"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4" style="position: relative;">
 					<h2>Latest</h2>
 					<div class="hero__content">
-						<h6>Episode 51.1</h6>
-						<p class="h4">Around The Table</p>
+						<h6>Episode 51.2</h6>
+						<p class="h4">Sandbox Interview: Rocky Roark</p>
 						<h6>Synopsis</h6>
-						<p>The Masters discuss the latest in creative pop-cuture with The Pin Sanctuary Co-Creator Derek Temple</p>
-						<a href="http://mof1podcast.com/episode-51-1/" class="hero__read-more p">Read Episode Recap<span class="with-arrow"></span></a>
+						<p>The Masters sit down with designer, illustrator and Slaptastick founder Rocky Roark.</p>
+						<a href="http://mof1podcast.com/episode-51-2-sandbox-interview-with-founder-of-slaptastick-rocky-roark/" class="hero__read-more p">Read Episode Recap<span class="with-arrow"></span></a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="hero__artwork">
-			<div class="abs-full u-bg-img" style="background-image: url('http://2e4fmm4173kfqb7uraadejq8.wpengine.netdna-cdn.com/wp-content/uploads/2016/12/Mof1_Episode51-1_Promo-1024x1024.jpg');"></div>
+			<div class="abs-full u-bg-img" style="background-image: url('http://mof1podcast.com/wp-content/uploads/2016/12/Mof1_Episode51-2_Promo-1024x1024.jpg');"></div>
 		</div>
 	</div>
 </section>
