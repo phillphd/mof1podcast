@@ -5,28 +5,31 @@
 
 get_header(); ?>
 
+<?php $the_query = new WP_Query(array('posts_per_page' => 1)); 
+if ($the_query->have_posts()) { while ($the_query->have_posts()) { $the_query->the_post(); ?>
 <section>
 	<div class="hero">
-		<div class="abs-full u-bg-img hero__bg" style="background-image: url('http://mof1podcast.com/wp-content/uploads/2016/12/Mof1_Episode52-1_Promo.jpg');"></div>
+		<div class="abs-full u-bg-img hero__bg" style="background-image: url('<?php echo the_post_thumbnail_url('full'); ?>');"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4" style="position: relative;">
 					<h2>Latest</h2>
 					<div class="hero__content">
-						<h6>Episode 52.1</h6>
-						<p class="h4">Rogue Run</p>
+						<h6>Episode <?php the_field('episode_number'); ?></h6>
+						<p class="h4"><?php the_field('episode_title'); ?></p>
 						<h6>Synopsis</h6>
-						<p>The Master's... well, they talk Rogue One. Angie Callen and Andrew Kolb join the discussion!</p>
-						<a href="http://mof1podcast.com/episode-52-1-rogue-run/" class="hero__read-more p">Read Episode Recap<span class="with-arrow"></span></a>
+						<p><?php the_field('episode_synopsis'); ?></p>
+						<a href="<?php the_permalink(); ?>" class="hero__read-more p">Read Episode Recap<span class="with-arrow"></span></a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="hero__artwork">
-			<div class="abs-full u-bg-img" style="background-image: url('http://mof1podcast.com/wp-content/uploads/2016/12/Mof1_Episode52-1_Promo.jpg');"></div>
+			<div class="abs-full u-bg-img" style="background-image: url('<?php echo the_post_thumbnail_url('full'); ?>');"></div>
 		</div>
 	</div>
 </section>
+<?php } wp_reset_postdata(); } ?>
 
 <section class="u-bg-gray-light">
 	<div class="container">
