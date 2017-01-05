@@ -3353,7 +3353,7 @@ div.mejs-speed-button {
       font-size: 5.2rem; } }
   @media only screen and (min-width: 992px) {
     .home h2, .home .h2 {
-      font-size: 6.4rem; } }
+      font-size: 6.8rem; } }
 
 .home h3, .home .h3 {
   margin-bottom: 18px;
@@ -3461,7 +3461,7 @@ div.mejs-speed-button {
       margin-right: 20px; } }
   @media only screen and (min-width: 992px) {
     .home .btn-slack {
-      padding: 18px 16px 18px 30%; } }
+      padding: 18px 30px 18px 30%; } }
   .home .btn-slack:hover {
     cursor: pointer;
     box-shadow: 0 0 50px -22px rgba(0, 0, 0, 0.8); }
@@ -3502,51 +3502,51 @@ div.mejs-speed-button {
     border-radius: 0; }
     @media only screen and (min-width: 768px) {
       .home .signup__wrapper input[type="email"] {
-        font-size: 3rem; } }
+        font-size: 2.8rem; } }
     @media only screen and (min-width: 992px) {
       .home .signup__wrapper input[type="email"] {
         height: 70px;
-        font-size: 3.6rem; } }
+        font-size: 3.2rem; } }
     .home .signup__wrapper input[type="email"]::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
       font-size: 2.2rem;
       color: #282828; }
       @media only screen and (min-width: 768px) {
         .home .signup__wrapper input[type="email"]::-webkit-input-placeholder {
-          font-size: 3rem; } }
+          font-size: 2.8rem; } }
       @media only screen and (min-width: 992px) {
         .home .signup__wrapper input[type="email"]::-webkit-input-placeholder {
-          font-size: 3.6rem; } }
+          font-size: 3.2rem; } }
     .home .signup__wrapper input[type="email"]::-moz-placeholder {
       /* Firefox 19+ */
       font-size: 2.2rem;
       color: #282828; }
       @media only screen and (min-width: 768px) {
         .home .signup__wrapper input[type="email"]::-moz-placeholder {
-          font-size: 3rem; } }
+          font-size: 2.8rem; } }
       @media only screen and (min-width: 992px) {
         .home .signup__wrapper input[type="email"]::-moz-placeholder {
-          font-size: 3.6rem; } }
+          font-size: 3.2rem; } }
     .home .signup__wrapper input[type="email"]:-ms-input-placeholder {
       /* IE 10+ */
       font-size: 2.2rem;
       color: #282828; }
       @media only screen and (min-width: 768px) {
         .home .signup__wrapper input[type="email"]:-ms-input-placeholder {
-          font-size: 3rem; } }
+          font-size: 2.8rem; } }
       @media only screen and (min-width: 992px) {
         .home .signup__wrapper input[type="email"]:-ms-input-placeholder {
-          font-size: 3.6rem; } }
+          font-size: 3.2rem; } }
     .home .signup__wrapper input[type="email"]:-moz-placeholder {
       /* Firefox 18- */
       font-size: 2.2rem;
       color: #282828; }
       @media only screen and (min-width: 768px) {
         .home .signup__wrapper input[type="email"]:-moz-placeholder {
-          font-size: 3rem; } }
+          font-size: 2.8rem; } }
       @media only screen and (min-width: 992px) {
         .home .signup__wrapper input[type="email"]:-moz-placeholder {
-          font-size: 3.6rem; } }
+          font-size: 3.2rem; } }
   .home .signup__wrapper input[type="submit"] {
     position: absolute;
     top: 0;
@@ -3667,6 +3667,7 @@ div.mejs-speed-button {
       margin-bottom: 0; }
   .home .section__link {
     position: relative;
+    font-size: 16px;
     font-weight: 400;
     color: #000; }
     .home .section__link::after {
@@ -3773,6 +3774,35 @@ div.mejs-speed-button {
       @media only screen and (min-width: 992px) {
         .home .social-list li.itunes {
           margin-top: -3px; } }
+
+.home .master-list {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center; }
+  .home .master-list__img {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    content: "";
+    overflow: hidden; }
+    @media only screen and (min-width: 768px) {
+      .home .master-list__img {
+        width: 170px;
+        height: 170px; } }
+    @media only screen and (min-width: 992px) {
+      .home .master-list__img {
+        width: 200px;
+        height: 200px; } }
+  .home .master-list li {
+    display: inline-block;
+    margin: 0 10px; }
+    @media only screen and (min-width: 768px) {
+      .home .master-list li {
+        margin: 0 30px; } }
+    @media only screen and (min-width: 992px) {
+      .home .master-list li {
+        margin: 0 50px; } }
 
 .mobile-nav-toggle {
   z-index: 999999; }

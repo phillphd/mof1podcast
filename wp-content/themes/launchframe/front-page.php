@@ -36,7 +36,7 @@ if ($the_query->have_posts()) { while ($the_query->have_posts()) { $the_query->t
 		<div class="row vp-xxs-top-4 vp-xxs-bottom-2 vp-lg-top-5 vp-lg-bottom-5">
 			<div class="col-md-6 col-lg-5 vm-xxs-bottom-2 vm-md-bottom-0">
 				<div class="btn-slack">
-					<a href="/slack" class="btn-slack__link"></a>
+					<a href="https://slackin-fuwqvuhict.now.sh/" target="_blank" class="btn-slack__link"></a>
 					<div class="btn-slack__img">
 						<img src="<?php bloginfo('template_directory');?>/assets/src/img/home/Slack_Mark_Web.png">
 					</div>
@@ -177,27 +177,35 @@ if ($the_query->have_posts()) { while ($the_query->have_posts()) { $the_query->t
 			</div>
 		</div>
 		<div class="row section__content">
-			<div class="post">
-				<div class="abs-full u-bg-img" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Kolb-Patrick-2.jpg');"></div>
-				<div class="post__meta" style="color: #000;">
-					<h6 class="p">TV &amp; Film</h6>
-					<p class="h6">Patrick Hill</p>
-				</div>
-			</div>
-			<div class="post">
-				<div class="abs-full u-bg-img" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Kolb-Luke-2.jpg');"></div>
-				<div class="post__meta" style="color: #000;">
-					<h6 class="p">Toys &amp; Games</h6>
-					<p class="h6">Luke Gaul</p>
-				</div>
-			</div>
-			<div class="post">
-				<div class="abs-full u-bg-img" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Kolb-Andrew-2.jpg');"></div>
-				<div class="post__meta" style="color: #000;">
-					<h6 class="p">Art &amp; Design</h6>
-					<p class="h6">Andrew Sale</p>
-				</div>
-			</div>
+			<ul class="master-list">
+				<li>
+					<div class="master-list__img">
+						<div class="abs-full u-bg-img" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Kolb-Patrick-2.jpg');"></div>
+					</div>
+					<div class="master-list__meta" style="color: #000;">
+						<h6 class="p">TV &amp; Film</h6>
+						<p class="h6">Patrick Hill</p>
+					</div>
+				</li>
+				<li>
+					<div class="master-list__img">
+						<div class="abs-full u-bg-img" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Kolb-Luke-2.jpg');"></div>
+					</div>
+					<div class="master-list__meta" style="color: #000;">
+						<h6 class="p">Toys &amp; Games</h6>
+						<p class="h6">Luke Gaul</p>
+					</div>
+				</li>
+				<li>
+					<div class="master-list__img">
+						<div class="abs-full u-bg-img" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Kolb-Andrew-2.jpg');"></div>
+					</div>
+					<div class="master-list__meta" style="color: #000;">
+						<h6 class="p">Art &amp; Design</h6>
+						<p class="h6">Andrew Sale</p>
+					</div>
+				</li>
+			</ul>
 		</div>
 	</div>
 </section>
