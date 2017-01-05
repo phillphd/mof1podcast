@@ -157,7 +157,7 @@ if ( has_post_thumbnail() ) {
 				<br />
 				<div class="row vm-xs-top-1 row vm-xs-bottom-1">
 					<div class="col-sm-3">
-						<?php previous_post('%', '<i class="fa fa-chevron-left"></i><em>Previous Episode</em>', 'no'); ?>
+						<?php previous_post('%', '<i class="fa fa-chevron-left"></i> &nbsp; <em>Previous Episode</em>', 'no'); ?>
 					</div>
 					<div class="col-sm-6 u-text-center">
 						<div id="share-buttons">
@@ -168,7 +168,7 @@ if ( has_post_thumbnail() ) {
 						</div>
 					</div>
 					<div class="col-sm-3 u-text-right">
-						<?php next_post('%', '<em>Next Episode</em><i class="fa fa-chevron-right"></i>', 'no'); ?>
+						<?php next_post('%', '<em>Next Episode</em> &nbsp; <i class="fa fa-chevron-right"></i>', 'no'); ?>
 					</div>
 				</div>
 			</div>
@@ -178,19 +178,21 @@ if ( has_post_thumbnail() ) {
 					<h4 class="u-color-primary">Latest Tweet</h4>
 					<div class="tweet"></div>
 					<div class="arrow-down"></div>
-					<h4 class="u-color-primary">Latest Episodes</h4>
+					<h4 class="u-color-primary vp-xs-top-2">Latest Episodes</h4>
 					<?php
 					$args = array( 'posts_per_page' => 3 );
 					$myposts = get_posts( $args );
 					foreach ( $myposts as $post ) : setup_postdata( $post );
 					?>
-						<div class="chevron">
-							<i class="fa fa-angle-right"></i>
+						<div class="vm-xs-top-2" style="position: relative;">
+							<div class="chevron" style="position: absolute; right: 0;">
+								<i class="fa fa-angle-right"></i>
+							</div>
+							<a class="latest-episode" href="<?php the_permalink(); ?>">
+								<p style="margin-bottom: 0;"><strong><em>Episode <?php the_field('episode_number'); ?></em>:</strong> <?php the_field('episode_title'); ?></p>
+								<p style="font-size: 12px;">(Aired: <?php echo get_the_date(); ?>)</p>
+							</a>
 						</div>
-						<a class="latest-episode" href="<?php the_permalink(); ?>">
-							<p style="margin-bottom: 0;"><strong><em>Episode <?php the_field('episode_number'); ?></em>:</strong> <?php the_field('episode_title'); ?></p>
-							<p style="font-size: 12px;">(Aired: <?php echo get_the_date(); ?>)</p>
-						</a>
 					<?php
 					endforeach; 
 					wp_reset_postdata();
