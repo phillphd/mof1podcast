@@ -2085,10 +2085,7 @@ div[class*="arc-"] {
 
 @media only screen and (min-width: 960px) {
   #the-archive .container {
-    width: 940px; }
-  #the-archive .arc-full-height,
-  #the-archive .arc-half-height {
-    border: 10px solid #fff; } }
+    width: 940px; } }
 
 @media only screen and (min-width: 1180px) {
   #the-archive .container {

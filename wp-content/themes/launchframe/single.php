@@ -11,12 +11,12 @@ get_header(); ?>
 a.latest-episode,
 a:hover,
 a:active {
-	color: #EF227A;
+	color: #662f46;
 }
 .tweet ul {
 	margin: 0;
 	padding: 5px 10px;
-	border: 2px solid #EF227A;
+	border: 2px solid #662f46;
 }
 .arrow-down {
 	position: relative;
@@ -26,7 +26,7 @@ a:active {
 	float: right;
 	border-left: 50px solid transparent;
 	border-right: 0 solid transparent;
-	border-top: 20px solid #EF227A;
+	border-top: 20px solid #662f46;
 }
 .arrow-down:after {
 	position: absolute;
