@@ -199,7 +199,7 @@ p {
 
 a {
   position: relative;
-  color: #EF227A;
+  color: #662f46;
   text-decoration: none; }
   a:visited {
     color: inherit; }
@@ -235,11 +235,11 @@ h5 {
 ::-moz-selection {
   /* Code for Firefox */
   color: #FFF;
-  background: #EF227A; }
+  background: #662f46; }
 
 ::selection {
   color: #FFF;
-  background: #EF227A; }
+  background: #662f46; }
 
 .u-text-center {
   text-align: center; }
@@ -279,11 +279,11 @@ h5 {
   background-color: #58595B;
   color: #FFF; }
   .u-bg-darkgray i[class*="icon-"]:before {
-    border-color: #EF227A;
+    border-color: #662f46;
     color: #FFF; }
   .u-bg-darkgray .button.sm-btn {
     color: #FFF;
-    border-color: #EF227A; }
+    border-color: #662f46; }
 
 .u-pad-none {
   padding: 0 !important; }
@@ -295,17 +295,17 @@ h5 {
   padding-left: 20px !important; }
 
 .u-color-primary {
-  color: #EF227A; }
+  color: #662f46; }
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #EF227A;
+  color: #662f46;
   -webkit-transition: .5s;
           transition: .5s; }
 
 a:hover {
-  color: #EF227A; }
+  color: #662f46; }
 
 @font-face {
   font-family: 'fontello';
@@ -366,7 +366,7 @@ a:hover {
             transition: all .2s linear; }
   .social-links:hover [class^="icon-"]:before, .social-links:hover [class*=" icon-"]:before {
     background-color: #58595B;
-    color: #EF227A; }
+    color: #662f46; }
 
 .icon-smile:before {
   content: '\e800'; }
@@ -494,8 +494,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #EF227A;
-  border-color: #EF227A;
+  color: #662f46;
+  border-color: #662f46;
   outline: 0;
   box-shadow: none; }
 
@@ -1872,7 +1872,7 @@ div[class*="col-"] {
       fill: #58595B; }
     .header-logo svg .logo-square,
     .header-logo svg .logo-circle {
-      fill: #EF227A; }
+      fill: #662f46; }
 
 .header-player h4 {
   font-size: 14px;
@@ -1894,7 +1894,7 @@ div[class*="col-"] {
     float: left;
     border-right: 2px solid #FFF; }
     .header-connect .connect-rss svg path {
-      fill: #EF227A; }
+      fill: #662f46; }
       .header-connect .connect-rss svg path.tower-band {
         fill: #58595B; }
     .header-connect .connect-rss svg polygon {
@@ -1973,10 +1973,10 @@ div[class*="col-"] {
     color: #F1F2F2; }
 
 .ep-box {
-  border: 2px solid #EF227A;
+  border: 2px solid #662f46;
   margin-bottom: 10px; }
   .ep-box h3 {
-    background-color: #EF227A; }
+    background-color: #662f46; }
   .ep-box h3, .ep-box .ep-number {
     color: #FFF; }
   .ep-box h4 {
@@ -2006,7 +2006,7 @@ footer {
       display: inline; }
       footer ul li:last-child svg path,
       footer ul li:last-child svg polygon {
-        fill: #EF227A; }
+        fill: #662f46; }
   footer svg {
     display: block;
     float: left;
@@ -2039,7 +2039,7 @@ footer {
     margin: 10px 0;
     color: #FFF; }
     .button.lg-btn:hover {
-      color: #EF227A; }
+      color: #662f46; }
 
 .network-news {
   position: relative;
@@ -2057,7 +2057,7 @@ footer {
     background-size: contain; }
 
 .error-404.not-found h1 {
-  color: #EF227A;
+  color: #662f46;
   font-family: 'GothamBlack';
   font-size: 6rem;
   text-transform: uppercase;
@@ -2341,7 +2341,7 @@ div[class*="arc-"] {
 .mejs-controls .mejs-time-rail .mejs-time-total {
   margin: 5px;
   background: transparent;
-  border: 2px solid #EF227A;
+  border: 2px solid #662f46;
   border-radius: 10px;
   width: 363px !important; }
 
@@ -2374,7 +2374,7 @@ div[class*="arc-"] {
 
 .mejs-controls .mejs-time-rail .mejs-time-current {
   background: #fff;
-  background: #EF227A;
+  background: #662f46;
   width: 0;
   border-radius: 4px;
   height: 11px; }
@@ -2532,7 +2532,7 @@ div[class*="arc-"] {
   margin: 0;
   padding: 0;
   font-size: 1px;
-  border: 2px solid #EF227A;
+  border: 2px solid #662f46;
   border-radius: 10px;
   background: transparent; }
 
@@ -2546,7 +2546,7 @@ div[class*="arc-"] {
   padding: 0;
   font-size: 1px;
   border-radius: 4px;
-  background: #EF227A; }
+  background: #662f46; }
 
 .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle {
   display: none; }
@@ -3103,7 +3103,7 @@ div.mejs-speed-button {
     width: 85%;
     float: left;
     background-color: #FFF;
-    border: 2px solid #EF227A;
+    border: 2px solid #662f46;
     border-radius: 0; }
   .mc-field-group input[type*="submit"] {
     display: inline-block;
@@ -3111,8 +3111,8 @@ div.mejs-speed-button {
     padding: 0;
     width: 10%;
     float: left;
-    background-color: #EF227A;
-    border: 2px solid #EF227A;
+    background-color: #662f46;
+    border: 2px solid #662f46;
     border-radius: 0;
     font-family: sans-serif;
     font-size: 30px;
