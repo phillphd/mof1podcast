@@ -14,6 +14,7 @@ get_header(); ?>
 </style>
 
 <section id="the-archive">
+	<div class="container">
 		<?php
 			$headings = array('<div class="row"><div class=" col-lg-6 arc-full-height">', 
 			  '<div class=" col-lg-6"><div class="row"><div class=" col-lg-6 arc-half-height">', 
@@ -55,6 +56,7 @@ get_header(); ?>
 			endforeach; 
 			wp_reset_postdata();
 		?>
+	</div>
 </section>
 
 <?php get_footer(); ?>
