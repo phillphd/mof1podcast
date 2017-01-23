@@ -152,7 +152,7 @@ final class NF_Database_Models_Submission
      */
     public function update_field_value( $field_ref, $value )
     {
-        $field_id = ( is_int( $field_ref ) ) ? $field_ref : $this->get_field_id_by_key( $field_ref );
+        $field_id = ( is_numeric( $field_ref ) ) ? $field_ref : $this->get_field_id_by_key( $field_ref );
 
         $this->_field_values[ $field_id ] = WPN_Helper::kses_post( $value );
 
@@ -274,13 +274,14 @@ final class NF_Database_Models_Submission
             $this->_seq_num = NF_Database_Models_Form::get_next_sub_seq( $this->_form_id );
         }
 
+        $this->_save_extra_values();
+
         return $this->_save_field_values();
     }
 
     public static function export( $form_id, array $sub_ids = array(), $return = FALSE )
     {
-        //TODO: Set Date Format from Plugin Settings
-        $date_format = 'm/d/Y';
+        $date_format = Ninja_Forms()->get_setting( 'date_format' );
 
 
         /*
@@ -297,13 +298,19 @@ final class NF_Database_Models_Submission
 
         $fields = Ninja_Forms()->form( $form_id )->get_fields();
 
+        usort( $fields, array( 'NF_Database_Models_Submission', 'sort_fields' ) );
+
         $hidden_field_types = apply_filters( 'nf_sub_hidden_field_types', array() );
 
         foreach( $fields as $field ){
 
             if( in_array( $field->get_setting( 'type' ), $hidden_field_types ) ) continue;
-
-            $field_labels[ $field->get_id() ] = $field->get_setting( 'label' );
+            if ( $field->get_setting( 'admin_label' ) ) {
+                $field_labels[ $field->get_id() ] = $field->get_setting( 'admin_label' );
+            } else {
+                $field_labels[ $field->get_id() ] = $field->get_setting( 'label' );
+            }
+            
         }
 
 
@@ -326,7 +333,15 @@ final class NF_Database_Models_Submission
 
                 if( ! is_int( $field_id ) ) continue;
 
-                $value[ $field_id ] = $sub->get_field_value( $field_id );
+                $field_value = $sub->get_field_value( $field_id );
+                $field_value = apply_filters( 'nf_subs_export_pre_value', $field_value, $field_id );
+                $field_value = apply_filters( 'ninja_forms_subs_export_pre_value', $field_value, $field_id, $form_id );
+
+                if( is_array( $field_value ) ){
+                    $field_value = implode( ' | ', $field_value );
+                }
+
+                $value[ $field_id ] = $field_value;
             }
 
             $value_array[] = $value;
@@ -398,19 +413,25 @@ final class NF_Database_Models_Submission
             $this->_save_field_value( $field_id, $value );
         }
 
-        foreach( $this->_extra_values as $key => $value )
-        {
-            if( property_exists( $this, $key ) ) continue;
-
-            update_post_meta( $this->_id, $key, $value );
-        }
-
         update_post_meta( $this->_id, '_form_id', $this->_form_id );
 
         update_post_meta( $this->_id, '_seq_num', $this->_seq_num );
 
         return $this;
     }
+
+    protected function _save_extra_values()
+    {
+        if( ! $this->_extra_values ) return FALSE;
+
+        foreach( $this->_extra_values as $key => $value )
+        {
+            if( property_exists( $this, $key ) ) continue;
+
+            update_post_meta( $this->_id, $key, $value );
+        }
+    }
+
 
     /*
      * UTILITIES
@@ -456,6 +477,14 @@ final class NF_Database_Models_Submission
         $field_id = $wpdb->get_var( "SELECT id FROM {$wpdb->prefix}nf3_fields WHERE `key` = '{$field_key}' AND `parent_id` = {$this->_form_id}" );
 
         return $field_id;
+    }
+
+    public static function sort_fields( $a, $b )
+    {
+        if ( $a->get_setting( 'order' ) == $b->get_setting( 'order' ) ) {
+            return 0;
+        }
+        return ( $a->get_setting( 'order' ) < $b->get_setting( 'order' ) ) ? -1 : 1;
     }
 
 

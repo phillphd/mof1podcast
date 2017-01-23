@@ -4,7 +4,7 @@ final class NF_Admin_Menus_Settings extends NF_Abstracts_Submenu
 {
     public $parent_slug = 'ninja-forms';
 
-    public $page_title = 'Settings';
+    public $menu_slug = 'nf-settings';
 
     public $priority = 11;
 
@@ -17,6 +17,16 @@ final class NF_Admin_Menus_Settings extends NF_Abstracts_Submenu
         if( isset( $_POST[ 'update_ninja_forms_settings' ] ) ) {
             add_action( 'admin_init', array( $this, 'update_settings' ) );
         }
+    }
+
+    public function get_page_title()
+    {
+        return __( 'Settings', 'ninja-forms' );
+    }
+
+    public function get_capability()
+    {
+        return apply_filters( 'ninja_forms_admin_settings_capabilities', $this->capability );
     }
 
     public function display()
@@ -84,51 +94,31 @@ final class NF_Admin_Menus_Settings extends NF_Abstracts_Submenu
         }
 
         if( $saved_fields ){
-            add_action( 'admin_footer', array( $this, 'add_saved_field_javascript' ) );
+            wp_register_script( 'ninja_forms_admin_menu_settings', Ninja_Forms::$url . 'assets/js/admin-settings.js', array( 'jquery' ), FALSE, TRUE );
+            wp_localize_script( 'ninja_forms_admin_menu_settings', 'nf_settings', array(
+                'ajax_url' => admin_url( 'admin-ajax.php' ),
+                'nonce'    => wp_create_nonce( "ninja_forms_settings_nonce" )
+            ));
+            wp_enqueue_script( 'ninja_forms_admin_menu_settings' );
         }
 
         Ninja_Forms::template( 'admin-menu-settings.html.php', compact( 'tabs', 'active_tab', 'groups', 'grouped_settings', 'save_button_text', 'errors' ) );
 
     }
 
-    public function add_saved_field_javascript()
-    {
-        //TODO: Move this.
-        ?>
-        <script type="text/javascript" >
-            var ajaxurl = '<?php echo admin_url( 'admin-ajax.php' ); ?>';
-            var nf_ajax_nonce = '<?php echo wp_create_nonce( "ninja_forms_settings_nonce" ); ?>';
-
-            jQuery(document).ready(function($) {
-                $( '.js-delete-saved-field' ).click( function(){
-
-                    var that = this;
-
-                    var data = {
-                        'action': 'nf_delete_saved_field',
-                        'field': {
-                            id: $( that ).data( 'id' )
-                        },
-                        'security': nf_ajax_nonce
-                    };
-
-                    $.post( ajaxurl, data )
-                        .done( function( response ) {
-                            $( that ).closest( 'tr').fadeOut().remove();
-                        });
-                });
-            });
-        </script>
-        <?php
-    }
-
     public function update_settings()
     {
-        if( ! current_user_can( apply_filters( 'ninja_forms_admin_form_settings_capabilities', 'manage_options' ) ) ) return;
+        if( ! current_user_can( apply_filters( 'ninja_forms_admin_settings_capabilities', 'manage_options' ) ) ) return;
 
         if( ! isset( $_POST[ $this->_prefix ] ) ) return;
 
         $settings = $_POST[ 'ninja_forms' ];
+
+        if( isset( $settings[ 'currency' ] ) ){
+            $currency = sanitize_text_field( $settings[ 'currency' ] );
+            $currency_symbols = Ninja_Forms::config( 'CurrencySymbol' );
+            $settings[ 'currency_symbol' ] = ( isset( $currency_symbols[ $currency ] ) ) ? $currency_symbols[ $currency ] : '';
+        }
 
         foreach( $settings as $id => $value ){
             $value = sanitize_text_field( $value );

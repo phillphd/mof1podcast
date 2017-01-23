@@ -1,0 +1,23 @@
+{
+    "name": "tightenco/simplecast",
+    "type": "library",
+    "description": "A Simplecast PHP SDK",
+    "keywords": ["simplecast","podcast"],
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle-services": "0.5.*"
+    },
+    "authors": [
+        {
+            "name": "Matt Stauffer",
+            "homepage": "http://tighten.co/",
+            "email": "matt@tighten.co",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Simplecast\\": "src/"
+        }
+    }
+}

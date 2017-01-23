@@ -5,6 +5,8 @@
  * @package Launchframe
  */
 
+require 'vendor/autoload.php';
+
 /**
  * Set the content width based on the theme's design and stylesheet.
  */
@@ -74,6 +76,41 @@ function launchframe_setup() {
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
+
+	register_post_type('episodes',
+    array(
+       'labels' => array(
+        	'name' => 'Episode',
+        	'singular_name' => 'Episode',
+        	'menu_name' => 'Episodes',
+        	'add_new' => 'Add Episode',
+        	'add_new_item' => 'Add New Episode',
+        	'edit' => 'Edit',
+        	'edit_item' => 'Edit Episode',
+        	'new_item' => 'New Episode',
+        	'view' => 'View Episodes',
+        	'view_item' => 'View Episode',
+        	'search_items' => 'Search Episodes',
+        	'not_found' => 'No Episodes Found',
+        	'not_found_in_trash' => 'No Episodes Found in Trash',
+        	'parent' => 'Parent Episode',
+        ),
+	    	'public' => true,
+	    	'show_ui' => true,
+	    	'show_in_menu' => true,
+	    	'show_in_nav_menus' => true,
+	    	'show_in_admin_bar' => true,
+	    	'menu_position' => 5,
+	    	'capability_type' => 'post',
+	    	'hierarchical' => false,
+	    	'rewrite' => array('slug' => 'episodes'),
+	    	'query_var' => true,
+	    	'exclude_from_search' => false,
+	    	'has_archive' => true,
+	    	'taxonomies' => array(),
+	    	'supports' => array(),
+        )
+    );
 }
 endif; // launchframe_setup
 add_action( 'after_setup_theme', 'launchframe_setup' );

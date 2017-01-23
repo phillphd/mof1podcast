@@ -28,7 +28,7 @@
             },
             run : function() {
                 $('.mobile-nav-toggle').on(clickevt, function(e){
-                    $('#site-navigation ul').toggleClass('display-nav');
+                    $('body').toggleClass('display-nav');
                 });
             }
         },

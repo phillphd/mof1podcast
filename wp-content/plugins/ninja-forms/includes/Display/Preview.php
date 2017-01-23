@@ -21,6 +21,7 @@ final class NF_Display_Preview
         add_filter('the_content', array( $this, 'the_content' ), 9001 );
         add_filter('get_the_excerpt', array( $this, 'the_content' ) );
         add_filter('template_include', array( $this, 'template_include' ) );
+        add_filter('post_thumbnail_html', array( $this, 'post_thumbnail_html' ) );
     }
 
     public function pre_get_posts( $query )
@@ -47,7 +48,7 @@ final class NF_Display_Preview
     {
         if ( ! is_user_logged_in() ) return __( 'You must be logged in to preview a form.', 'ninja-forms' );
 
-        return do_shortcode( "[nf_tmp_preview id='{$this->_form_id}']" );
+        return do_shortcode( "[nf_preview id='{$this->_form_id}']" );
     }
 
     /**
@@ -56,6 +57,10 @@ final class NF_Display_Preview
     function template_include()
     {
         return locate_template( array( 'page.php', 'single.php', 'index.php' ) );
+    }
+
+    function post_thumbnail_html() {
+    	return '';
     }
 
 } // END CLASS NF_Display_Preview

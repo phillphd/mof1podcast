@@ -6,26 +6,39 @@
 get_header(); ?>
 
 <?php $the_query = new WP_Query(array('posts_per_page' => 1)); 
-if ($the_query->have_posts()) { while ($the_query->have_posts()) { $the_query->the_post(); ?>
+if ($the_query->have_posts()) { while ($the_query->have_posts()) { $the_query->the_post();
+
+$simplecast = Simplecast\ClientFactory::factory([
+    'apiKey' => 'sc_VS6l8ZdZTuWaX-Y-MUtANg'
+]);
+
+$episode = $simplecast->podcastEpisode([
+    'podcast_id' => get_field('podcast_id'),
+    'episode_id' => get_field('episode_id')
+]);
+
+$episode_title = explode(":", $episode["title"]);
+
+?>
 <section>
 	<div class="hero">
-		<div class="abs-full u-bg-img hero__bg" style="background-image: url('<?php echo the_post_thumbnail_url('full'); ?>');"></div>
+		<div class="abs-full u-bg-img hero__bg" style="background-image: url('<?php echo $episode["images"]["large"]; ?>');"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4" style="position: relative;">
 					<h2>Latest</h2>
 					<div class="hero__content">
-						<h6>Episode <?php the_field('episode_number'); ?></h6>
-						<p class="h4"><?php the_field('episode_title'); ?></p>
+						<h6><?php echo $episode_title[0]; ?></h6>
+						<p class="h4"><?php echo $episode_title[1]; ?></p>
 						<h6>Synopsis</h6>
-						<p><?php the_field('episode_synopsis'); ?></p>
+						<p><?php echo substr($episode["description"], 0, 150); ?>...</p>
 						<a href="<?php the_permalink(); ?>" class="hero__read-more p">Read Episode Recap<span class="with-arrow"></span></a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="hero__artwork">
-			<div class="abs-full u-bg-img" style="background-image: url('<?php echo the_post_thumbnail_url('full'); ?>');"></div>
+			<div class="abs-full u-bg-img" style="background-image: url('<?php echo $episode["images"]["large"]; ?>');"></div>
 		</div>
 	</div>
 </section>

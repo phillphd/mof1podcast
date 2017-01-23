@@ -17,16 +17,16 @@ $secondary: #BCBEC0;
 
 $white: #FFF;
 
-$darker-gray: #58595B;
-$dark-gray: lighten(#58595B, 10%);
-$gray: lighten(#58595B, 20%);
+$darker-gray: #282727;
+$dark-gray: lighten(#282727, 10%);
+$gray: lighten(#282727, 20%);
 $light-gray: #F1F2F2;
 $lighter-gray: lighten(#F1F2F2, 10%);
 
-$body-font: "Georgia", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$body-font: 'Roboto', sans-serif;
 $body-line-height: 1.6;
 $body-font-size: 16px;
 $body-color: $darker-gray;
 $grid_breakpoint_space: 40;
 
-$header-font: "GothamBold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$header-font: 'Roboto', sans-serif;
