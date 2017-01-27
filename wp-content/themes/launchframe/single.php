@@ -22,7 +22,11 @@ $episode = $simplecast->podcastEpisode([
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<iframe frameborder='0' height='330px' scrolling='no' seamless src='https://simplecast.com/e/<?php echo $episode["id"]; ?>?style=large' width='100%'></iframe>
+				<div class="episode-header">
+					<div class="abs-img with-overlay" style="background-image: url(<?php echo $episode["images"]["large"]; ?>);"></div>
+					<h1><?php echo $episode["title"]; ?></h1>
+					<iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.com/e/<?php echo $episode["id"]; ?>?style=light' width='100%'></iframe>
+				</div>
 			</div>
 		</div>
 	</div>

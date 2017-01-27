@@ -199,15 +199,18 @@ h6 {
   h6 {
     font-size: 1.5rem; } }
 
+h1, .h1,
 h2, .h2 {
   font-family: 'upstaterregular', 'Roboto', sans-serif;
   font-size: 4.4rem;
   line-height: 1;
   text-transform: uppercase; }
   @media only screen and (min-width: 768px) {
+    h1, .h1,
     h2, .h2 {
       font-size: 5.2rem; } }
   @media only screen and (min-width: 992px) {
+    h1, .h1,
     h2, .h2 {
       font-size: 6.8rem; } }
 
@@ -1892,6 +1895,18 @@ div[class*="col-"] {
   background-position: center;
   background-size: cover;
   content: ""; }
+  .abs-img.with-overlay::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 80%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 80%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    content: ""; }
 
 #masthead div[class*="header-"] {
   padding: 0; }
@@ -1988,6 +2003,17 @@ div[class*="col-"] {
     color: #662f46; }
   .social-links .fa {
     margin-top: 10px; }
+
+.episode-header {
+  position: relative;
+  padding: 250px 40px 20px; }
+  @media only screen and (max-width: 559px) {
+    .episode-header {
+      padding: 150px 30px 15px; } }
+  .episode-header h1 {
+    position: relative; }
+  .episode-header iframe {
+    position: relative; }
 
 .master-info {
   display: -webkit-box;
