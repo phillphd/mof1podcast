@@ -54,8 +54,8 @@ $episode_title = explode(":", $episode["title"]);
 						<img src="<?php bloginfo('template_directory');?>/assets/src/img/home/Slack_Mark_Web.png">
 					</div>
 					<div class="btn-slack__text">
-						<h5>Join Mof1 on Slack, its a pants party. I love you.</h5>
-						<p style="display: inline-block;">I know<span class="with-arrow"></span></p>
+						<h5>Join Mof1 on Slack, its a pants party.</h5>
+						<p style="display: inline-block;">Ok, Fine</p>
 					</div>
 				</div>
 			</div>
