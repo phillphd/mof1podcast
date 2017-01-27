@@ -54,10 +54,10 @@ $episode = $simplecast->podcastEpisode([
 								<p><?php the_sub_field('guest_bio'); ?></p>
 								<div class="u-text-right">
 									<?php if( have_rows('guest_social') ) : while ( have_rows('guest_social') ) : the_row(); ?>
-										<a class="social-links" href="<?php the_sub_field('social_url'); ?>" target="_blank"><i class="icon-<?php the_sub_field('social_name'); ?>"></i></a>
+										<a class="social-links" href="<?php the_sub_field('social_url'); ?>" target="_blank"><i class="fa fa-<?php the_sub_field('social_name'); ?>"></i></a>
 									<?php endwhile; else : endif; ?>
 									<?php if(get_sub_field('guest_website_url')) { ?>
-										<a class="button sm-btn" style="margin-left: 4px;" href="<?php the_sub_field('guest_website_url'); ?>" target="_blank">Visit Website</a>
+										<a class="button sm-btn" style="margin: 0;" href="<?php the_sub_field('guest_website_url'); ?>" target="_blank">Visit Website</a>
 									<?php } ?>
 								</div>
 							</div>

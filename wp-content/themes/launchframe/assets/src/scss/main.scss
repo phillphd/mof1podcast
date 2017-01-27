@@ -261,6 +261,23 @@ div[class*="col-"] {
 	height: 300px;
 }
 
+.social-links {
+	bottom: -4px;
+	padding: 0 16px 0 0;
+	font-size: 2.6rem;
+	line-height: 26px;
+	color: $darker-gray;
+	&:visited {
+		color: $darker-gray;
+	}
+	&:hover {
+		color: $primary;
+	}
+	.fa {
+		margin-top: 10px
+	}
+}
+
 .master-info {
 	display: flex;
 	.master-photo {

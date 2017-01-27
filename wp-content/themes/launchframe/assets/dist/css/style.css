@@ -1976,6 +1976,19 @@ div[class*="col-"] {
 .arc-half-height {
   height: 300px; }
 
+.social-links {
+  bottom: -4px;
+  padding: 0 16px 0 0;
+  font-size: 2.6rem;
+  line-height: 26px;
+  color: #282727; }
+  .social-links:visited {
+    color: #282727; }
+  .social-links:hover {
+    color: #662f46; }
+  .social-links .fa {
+    margin-top: 10px; }
+
 .master-info {
   display: -webkit-box;
   display: -webkit-flex;
