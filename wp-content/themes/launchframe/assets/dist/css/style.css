@@ -1337,9 +1337,9 @@ img {
   .vm-md-bottom-12 {
     margin-bottom: 168px; } }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1050px) {
   .container {
-    width: 920px; }
+    width: 1010px; }
   .vm-lg-top-0 {
     margin-top: 0; }
   .vm-lg-bottom-0 {
@@ -2255,7 +2255,7 @@ div[class*="col-"] {
     .home .btn-slack {
       padding: 16px 16px 12px 33%;
       margin-right: 20px; } }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 1050px) {
     .home .btn-slack {
       padding: 18px 30px 18px 30%; } }
   .home .btn-slack:hover {
@@ -2299,7 +2299,7 @@ div[class*="col-"] {
     @media only screen and (min-width: 768px) {
       .home .signup__wrapper input[type="email"] {
         font-size: 2.8rem; } }
-    @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: 1050px) {
       .home .signup__wrapper input[type="email"] {
         height: 70px;
         font-size: 3.2rem; } }
@@ -2310,7 +2310,7 @@ div[class*="col-"] {
       @media only screen and (min-width: 768px) {
         .home .signup__wrapper input[type="email"]::-webkit-input-placeholder {
           font-size: 2.8rem; } }
-      @media only screen and (min-width: 992px) {
+      @media only screen and (min-width: 1050px) {
         .home .signup__wrapper input[type="email"]::-webkit-input-placeholder {
           font-size: 3.2rem; } }
     .home .signup__wrapper input[type="email"]::-moz-placeholder {
@@ -2320,7 +2320,7 @@ div[class*="col-"] {
       @media only screen and (min-width: 768px) {
         .home .signup__wrapper input[type="email"]::-moz-placeholder {
           font-size: 2.8rem; } }
-      @media only screen and (min-width: 992px) {
+      @media only screen and (min-width: 1050px) {
         .home .signup__wrapper input[type="email"]::-moz-placeholder {
           font-size: 3.2rem; } }
     .home .signup__wrapper input[type="email"]:-ms-input-placeholder {
@@ -2330,7 +2330,7 @@ div[class*="col-"] {
       @media only screen and (min-width: 768px) {
         .home .signup__wrapper input[type="email"]:-ms-input-placeholder {
           font-size: 2.8rem; } }
-      @media only screen and (min-width: 992px) {
+      @media only screen and (min-width: 1050px) {
         .home .signup__wrapper input[type="email"]:-ms-input-placeholder {
           font-size: 3.2rem; } }
     .home .signup__wrapper input[type="email"]:-moz-placeholder {
@@ -2340,7 +2340,7 @@ div[class*="col-"] {
       @media only screen and (min-width: 768px) {
         .home .signup__wrapper input[type="email"]:-moz-placeholder {
           font-size: 2.8rem; } }
-      @media only screen and (min-width: 992px) {
+      @media only screen and (min-width: 1050px) {
         .home .signup__wrapper input[type="email"]:-moz-placeholder {
           font-size: 3.2rem; } }
   .home .signup__wrapper input[type="submit"] {
@@ -2365,20 +2365,20 @@ div[class*="col-"] {
   @media only screen and (min-width: 768px) {
     .home .signup-cta {
       padding: 40px 45px; } }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 1050px) {
     .home .signup-cta {
       padding: 50px 58px; } }
   .home .signup-cta .contact-form {
     padding-top: 20px; }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1050px) {
   .home .contact-form {
     padding-left: 50px; } }
 
 .home .contact-form__header {
   padding-top: 5px;
   margin-bottom: 0; }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 1050px) {
     .home .contact-form__header {
       display: inline-block;
       padding-top: 15px; } }
@@ -2393,7 +2393,7 @@ div[class*="col-"] {
   @media only screen and (min-width: 768px) {
     .home .hero {
       padding-top: 40px; } }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 1050px) {
     .home .hero {
       min-height: 568px;
       padding-top: 60px; } }
@@ -2425,7 +2425,7 @@ div[class*="col-"] {
     @media only screen and (min-width: 768px) {
       .home .hero__read-more {
         margin-top: 45px; } }
-    @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: 1050px) {
       .home .hero__read-more {
         padding: 18px 64px 20px 24px;
         margin-top: 75px; } }
@@ -2442,7 +2442,7 @@ div[class*="col-"] {
   @media only screen and (min-width: 768px) {
     .home .section {
       padding: 30px 0 65px; } }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 1050px) {
     .home .section {
       padding: 50px 0 95px; } }
   .home .section__bg {
@@ -2456,7 +2456,7 @@ div[class*="col-"] {
   .home .section__header {
     padding: 0 0 40px;
     color: #000; }
-    @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: 1050px) {
       .home .section__header {
         padding: 0 0 80px; } }
     .home .section__header h2 {
@@ -2494,9 +2494,18 @@ div[class*="col-"] {
       .home .section__content--big .post {
         width: calc(50% - 6px);
         height: 350px; } }
-    @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: 1050px) {
       .home .section__content--big .post {
         height: 423px; } }
+
+.home .episode-box {
+  width: 100%;
+  height: 500px; }
+  .home .episode-box--network {
+    height: 300px; }
+    @media only screen and (min-width: 1050px) {
+      .home .episode-box--network {
+        height: 450px; } }
 
 .home .post {
   position: relative;
@@ -2510,7 +2519,7 @@ div[class*="col-"] {
       height: 250px;
       margin-right: 12px;
       margin-bottom: 0; } }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 1050px) {
     .home .post {
       height: 348px; } }
   @media only screen and (min-width: 768px) {
@@ -2523,16 +2532,12 @@ div[class*="col-"] {
     margin-right: 0; }
   .home .post__meta {
     position: absolute;
-    bottom: 20px;
-    left: 24px;
-    width: calc(100% - 48px);
-    max-width: 375px;
-    color: #FFF; }
-    @media only screen and (min-width: 768px) {
-      .home .post__meta {
-        bottom: 28px;
-        left: 32px;
-        width: calc(100% - 64px); } }
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #282727;
+    background-color: rgba(255, 255, 255, 0.9); }
   .home .post__link {
     position: absolute;
     top: 0;
@@ -2561,13 +2566,19 @@ div[class*="col-"] {
     @media only screen and (min-width: 768px) {
       .home .social-list li {
         margin: 0 0 0 38px; } }
-    @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: 1050px) {
       .home .social-list li {
         font-size: 3.5rem; } }
+    .home .social-list li a {
+      color: #000; }
+      .home .social-list li a:visited {
+        color: #000; }
+      .home .social-list li a:hover {
+        color: #662f46; }
     .home .social-list li.itunes {
       float: right;
       margin-top: -8px; }
-      @media only screen and (min-width: 992px) {
+      @media only screen and (min-width: 1050px) {
         .home .social-list li.itunes {
           margin-top: -3px; } }
 
@@ -2586,17 +2597,19 @@ div[class*="col-"] {
       .home .master-list__img {
         width: 170px;
         height: 170px; } }
-    @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: 1050px) {
       .home .master-list__img {
         width: 200px;
         height: 200px; } }
+  .home .master-list__meta p {
+    margin-bottom: 3px; }
   .home .master-list li {
     display: inline-block;
     margin: 0 10px; }
     @media only screen and (min-width: 768px) {
       .home .master-list li {
         margin: 0 30px; } }
-    @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: 1050px) {
       .home .master-list li {
         margin: 0 50px; } }
 
@@ -2611,7 +2624,7 @@ div[class*="col-"] {
   @media only screen and (min-width: 768px) {
     .site-header {
       padding: 45px 0 38px; } }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 1050px) {
     .site-header {
       padding: 60px 0 48px; } }
   .site-header__divider {
@@ -2661,7 +2674,7 @@ div[class*="col-"] {
       @media only screen and (min-width: 768px) {
         .site-header__logo svg {
           max-width: 330px; } }
-      @media only screen and (min-width: 992px) {
+      @media only screen and (min-width: 1050px) {
         .site-header__logo svg {
           max-width: 425px; } }
 
@@ -2702,7 +2715,7 @@ div[class*="col-"] {
       display: block;
       width: 100%;
       margin: 75px 0 0; } }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 1050px) {
     .main-navigation li {
       font-size: 3.6rem; } }
   .main-navigation li::after {
@@ -2732,7 +2745,7 @@ div[class*="col-"] {
   margin: 0;
   color: #9A9393;
   text-align: center; }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 1050px) {
     .site-footer {
       padding: 60px 0 48px; } }
   .site-footer .row {
@@ -2793,7 +2806,7 @@ div[class*="col-"] {
         padding: 0 20px;
         font-size: 1.7rem;
         border-right: 1px solid #9A9393; } }
-    @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: 1050px) {
       .site-footer li {
         font-size: 2rem; } }
     .site-footer li:last-child {
@@ -2860,7 +2873,7 @@ div[class*="col-"] {
       @media only screen and (min-width: 768px) {
         .page-conference .the-mof1-mark:before, .page-conference .the-mof1-mark:after {
           width: 60px; } }
-      @media only screen and (min-width: 960px) {
+      @media only screen and (min-width: 1050px) {
         .page-conference .the-mof1-mark:before, .page-conference .the-mof1-mark:after {
           width: 140px; } }
     .page-conference .the-mof1-mark:before {
@@ -2868,7 +2881,7 @@ div[class*="col-"] {
       @media only screen and (min-width: 768px) {
         .page-conference .the-mof1-mark:before {
           left: -20px; } }
-      @media only screen and (min-width: 960px) {
+      @media only screen and (min-width: 1050px) {
         .page-conference .the-mof1-mark:before {
           left: -80px; } }
     .page-conference .the-mof1-mark:after {
@@ -2876,7 +2889,7 @@ div[class*="col-"] {
       @media only screen and (min-width: 768px) {
         .page-conference .the-mof1-mark:after {
           right: -20px; } }
-      @media only screen and (min-width: 960px) {
+      @media only screen and (min-width: 1050px) {
         .page-conference .the-mof1-mark:after {
           right: -80px; } }
   .page-conference .big-mof1 {

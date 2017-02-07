@@ -54,8 +54,8 @@ $episode_title = explode(":", $episode["title"]);
 						<img src="<?php bloginfo('template_directory');?>/assets/src/img/home/Slack_Mark_Web.png">
 					</div>
 					<div class="btn-slack__text">
-						<h5>Join Mof1 on Slack, its a pants party.</h5>
-						<p style="display: inline-block;">Ok, Fine</p>
+						<h5>Join Mof1 on Slack<br />It's a party.</h5>
+						<p style="display: inline-block;">I like to party!</p>
 					</div>
 				</div>
 			</div>
@@ -83,22 +83,20 @@ $episode_title = explode(":", $episode["title"]);
 			</div>
 		</div>
 		<div class="row section__content section__content--big">
-			<div class="post">
-				<div class="abs-full u-bg-img" style="background-image: url('http://hotseat.mof1podcast.com/wp-content/themes/launchframe/assets/src/img/bg.jpg');"></div>
-				<div class="abs-full u-bg-overlay" style="background-color: rgba(235,39,123,.7);"></div>
-				<a href="http://hotseat.mof1podcast.com/" class="post__link"></a>
-				<div class="post__meta">
-					<h6 class="p">Hot Seat Interviews</h6>
-					<p class="h6">Listen to interviews with incredible creatives from the floor of ReImagine Conference 2016.</p>
+			<div class="episode-box">
+				<div class="episode-box__img" style="background-image: url('http://hotseat.mof1podcast.com/wp-content/themes/launchframe/assets/src/img/bg.jpg');"></div>
+				<div class="episode-box__meta">
+					<p>Hot Seat Interviews</p>
+					<p class="airdate">Listen to interviews with incredible creatives from the floor of ReImagine Conference 2016.</p>
+					<a class="button sm-btn" href="http://hotseat.mof1podcast.com/">Read More</a>
 				</div>
 			</div>
-			<div class="post">
-				<div class="abs-full u-bg-img" style="background-image: url('http://mof1podcast.com/wp-content/uploads/2016/12/HMT_ad.jpg');"></div>
-				<div class="abs-full u-bg-overlay" style="background-color: rgba(166,20,25,.7);"></div>
-				<a href="http://mof1podcast.com/holiday-meal-time-with-friends/" class="post__link"></a>
-				<div class="post__meta">
-					<h6 class="p">Holiday Meal Time With Friends</h6>
-					<p class="h6">We are excited to announce a delicious collaboration to bring you an amazing holiday meal time! Check it out!</p>
+			<div class="episode-box">
+				<div class="episode-box__img" style="background-image: url('http://mof1podcast.com/wp-content/uploads/2016/12/HMT_ad.jpg');"></div>
+				<div class="episode-box__meta">
+					<p>Holiday Meal Time With Friends</p>
+					<p class="airdate">We are excited to announce a delicious collaboration to bring you an amazing holiday meal time! Check it out!</p>
+					<a class="button sm-btn" href="http://mof1podcast.com/holiday-meal-time-with-friends/">Read More</a>
 				</div>
 			</div>
 		</div>
@@ -117,31 +115,28 @@ $episode_title = explode(":", $episode["title"]);
 			</div>
 		</div>
 		<div class="row section__content">
-			<div class="post">
-				<div class="abs-full u-bg-img" style="background-image: url('http://2e4fmm4173kfqb7uraadejq8.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/Screen-Shot-2015-09-26-at-5.01.00-PM.png');"></div>
-				<div class="abs-full u-bg-overlay" style="background-color: rgba(216,146,48,.7);"></div>
-				<a href="http://www.heymonkeydesign.com/" target="_blank" class="post__link"></a>
-				<div class="post__meta">
-					<h6 class="p">Hey Monkey! Design</h6>
-					<p class="h6">Lenny Terenzi</p>
+			<div class="episode-box episode-box--network">
+				<div class="episode-box__img" style="background-image: url('http://2e4fmm4173kfqb7uraadejq8.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/Screen-Shot-2015-09-26-at-5.01.00-PM.png');"></div>
+				<div class="episode-box__meta">
+					<p>Hey Monkey! Design</p>
+					<p class="airdate">Lenny Terenzi</p>
+					<a class="button sm-btn" href="http://www.heymonkeydesign.com/">Read More</a>
 				</div>
 			</div>
-			<div class="post">
-				<div class="abs-full u-bg-img" style="background-image: url('http://2e4fmm4173kfqb7uraadejq8.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/Kolb_site_img.png');"></div>
-				<div class="abs-full u-bg-overlay" style="background-color: rgba(254,225,86,.7);"></div>
-				<a href="http://www.kolbisneat.com/" target="_blank" class="post__link"></a>
-				<div class="post__meta">
-					<h6 class="p">Kolb is Neat</h6>
-					<p class="h6">Andrew Kolb</p>
+			<div class="episode-box episode-box--network">
+				<div class="episode-box__img" style="background-image: url('http://2e4fmm4173kfqb7uraadejq8.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/Kolb_site_img.png');"></div>
+				<div class="episode-box__meta">
+					<p>Kolb is Neat</p>
+					<p class="airdate">Andrew Kolb</p>
+					<a class="button sm-btn" href="http://www.kolbisneat.com/">Read More</a>
 				</div>
 			</div>
-			<div class="post">
-				<div class="abs-full u-bg-img" style="background-image: url('http://2e4fmm4173kfqb7uraadejq8.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/JustinPeterson_site_img.png');"></div>
-				<div class="abs-full u-bg-overlay" style="background-color: rgba(241,104,31,.7);"></div>
-				<a href="http://justinpeterson.bigcartel.com/" target="_blank" class="post__link"></a>
-				<div class="post__meta">
-					<h6 class="p">Justin Peterson Art</h6>
-					<p class="h6">Justin Peterson</p>
+			<div class="episode-box episode-box--network">
+				<div class="episode-box__img" style="background-image: url('http://2e4fmm4173kfqb7uraadejq8.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/JustinPeterson_site_img.png');"></div>
+				<div class="episode-box__meta">
+					<p>Justin Peterson Art</p>
+					<p class="airdate">Justin Peterson</p>
+					<a class="button sm-btn" href="http://justinpeterson.bigcartel.com/">Read More</a>
 				</div>
 			</div>
 		</div>
@@ -196,8 +191,8 @@ $episode_title = explode(":", $episode["title"]);
 						<div class="abs-full u-bg-img" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Kolb-Patrick-2.jpg');"></div>
 					</div>
 					<div class="master-list__meta" style="color: #000;">
-						<h6 class="p">TV &amp; Film</h6>
-						<p class="h6">Patrick Hill</p>
+						<p>Patrick Hill</p>
+						<h6>TV &amp; Film</h6>
 					</div>
 				</li>
 				<li>
@@ -205,8 +200,8 @@ $episode_title = explode(":", $episode["title"]);
 						<div class="abs-full u-bg-img" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Kolb-Luke-2.jpg');"></div>
 					</div>
 					<div class="master-list__meta" style="color: #000;">
-						<h6 class="p">Toys &amp; Games</h6>
-						<p class="h6">Luke Gaul</p>
+						<p>Luke Gaul</p>
+						<h6>Toys &amp; Games</h6>
 					</div>
 				</li>
 				<li>
@@ -214,8 +209,8 @@ $episode_title = explode(":", $episode["title"]);
 						<div class="abs-full u-bg-img" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Kolb-Andrew-2.jpg');"></div>
 					</div>
 					<div class="master-list__meta" style="color: #000;">
-						<h6 class="p">Art &amp; Design</h6>
-						<p class="h6">Andrew Sale</p>
+						<p>Andrew Sale</p>
+						<h6>Art &amp; Design</h6>
 					</div>
 				</li>
 			</ul>
