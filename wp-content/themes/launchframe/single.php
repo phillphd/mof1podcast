@@ -88,7 +88,7 @@ $episode = $simplecast->podcastEpisode([
 				</div>
 				<div class="row vm-xs-top-1">
 					<div class="mof1-ad mof1-ad--single" style="background-image: url(<?php bloginfo('template_directory');?>/assets/src/img/askew/BF-Askew-Side.png);">
-						<a href="#!" title=""></a>
+						<a href="https://www.baronfig.com/products/askew?utm_source=mof1podcast&utm_campaign=Baron_Fig__Askew&utm_medium=website" title="Askew by Baron Fig" target="_blank"></a>
 					</div>
 				</div>
 			</div>
