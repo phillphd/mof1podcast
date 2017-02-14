@@ -46,7 +46,12 @@ $episode_title = explode(":", $episode["title"]);
 
 <section class="u-bg-gray-light">
 	<div class="container">
-		<div class="row vp-xxs-top-4 vp-xxs-bottom-2 vp-lg-top-5 vp-lg-bottom-5">
+		<div class="row  vp-xxs-top-3 vp-lg-top-4">
+			<div class="mof1-ad mof1-ad--fullWidth" style="background-image: url(<?php bloginfo('template_directory');?>/assets/src/img/askew/BF-Askew-FullWidth.png);">
+				<a href="#!" title=""></a>
+			</div>
+		</div>
+		<div class="row vp-xxs-top-3 vp-xxs-bottom-2 vp-lg-top-5 vp-lg-bottom-5">
 			<div class="col-md-6 col-lg-5 vm-xxs-bottom-2 vm-md-bottom-0">
 				<div class="btn-slack">
 					<a href="https://slackin-fuwqvuhict.now.sh/" target="_blank" class="btn-slack__link"></a>
