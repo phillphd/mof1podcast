@@ -12,13 +12,15 @@ $args = array(
 
 $episodes = new WP_Query($args);
 
-$simplecast = Simplecast\ClientFactory::factory([
-    'apiKey' => 'sc_VS6l8ZdZTuWaX-Y-MUtANg'
-]);
-
-$api_episodes = $simplecast->podcastEpisodes([
-    'podcast_id' => 1607
-]);
+if (false === ($api_episodes = get_transient('api_episodes'))) {
+	$simplecast = Simplecast\ClientFactory::factory([
+    	'apiKey' => 'sc_VS6l8ZdZTuWaX-Y-MUtANg'
+	]);
+     $api_episodes = $simplecast->podcastEpisodes([
+    	'podcast_id' => 1607
+	]);
+     set_transient( 'api_episodes', $api_episodes, 12 * HOUR_IN_SECONDS );
+}
 
 ?>
 
@@ -43,7 +45,7 @@ $api_episodes = $simplecast->podcastEpisodes([
 
 			if ($episodes->have_posts()) {
 				while ($episodes->have_posts()) { $episodes->the_post();
-					$episode_sc_data = array_values(array_filter( $api_episodes, function($ep){
+					$episode_sc_data = array_values(array_filter($api_episodes, function($ep) {
 						$episode_id = get_field('episode_id');
 						return $ep["id"] == $episode_id;
 					}))[0];
