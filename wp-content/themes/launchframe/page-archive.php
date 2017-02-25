@@ -5,12 +5,14 @@
 
 get_header();
 
-$args = array(
-	'post_type'  => 'episodes',
-	'posts_per_page' => -1
-);
-
-$episodes = new WP_Query($args);
+if (false === ($episodes = get_transient('episodes'))) {
+    $args = array(
+		'post_type'  => 'episodes',
+		'posts_per_page' => -1
+	);
+	$episodes = new WP_Query($args);
+    set_transient('episodes', $episodes, 12 * HOUR_IN_SECONDS);
+}
 
 if (false === ($api_episodes = get_transient('api_episodes'))) {
 	$simplecast = Simplecast\ClientFactory::factory([
@@ -19,7 +21,7 @@ if (false === ($api_episodes = get_transient('api_episodes'))) {
      $api_episodes = $simplecast->podcastEpisodes([
     	'podcast_id' => 1607
 	]);
-     set_transient( 'api_episodes', $api_episodes, 12 * HOUR_IN_SECONDS );
+    set_transient('api_episodes', $api_episodes, 12 * HOUR_IN_SECONDS);
 }
 
 ?>
