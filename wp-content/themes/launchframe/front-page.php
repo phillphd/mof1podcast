@@ -47,8 +47,8 @@ $episode_title = explode(":", $episode["title"]);
 <section class="u-bg-gray-light">
 	<div class="container">
 		<div class="row  vp-xxs-top-3 vp-lg-top-4">
-			<div class="mof1-ad mof1-ad--fullWidth" style="background-image: url(<?php bloginfo('template_directory');?>/assets/src/img/askew/BF-Askew-FullWidth.png);">
-				<a href="https://www.baronfig.com/products/askew?utm_source=mof1podcast&utm_campaign=Baron_Fig__Askew&utm_medium=website" title="Askew by Baron Fig" target="_blank"></a>
+			<div class="mof1-ad mof1-ad--fullWidth" style="background-image: url(<?php bloginfo('template_directory');?>/assets/src/img/infinity/BF-Infinity-FullWidth.png);">
+				<a href="https://www.baronfig.com/products/infinity?utm_source=mof1podcast&utm_campaign=Baron_Fig__Infinity&utm_medium=website" title="Infinity by Baron Fig" target="_blank"></a>
 			</div>
 		</div>
 		<div class="row vp-xxs-top-3 vp-xxs-bottom-2 vp-lg-top-5 vp-lg-bottom-5">
