@@ -16,6 +16,9 @@ $episode = $simplecast->podcastEpisode([
     'episode_id' => get_field('episode_id')
 ]);
 
+include 'vendor/parsedown/Parsedown.php';
+$Parsedown = new Parsedown();
+
 ?>
 
 <section>
@@ -38,7 +41,7 @@ $episode = $simplecast->podcastEpisode([
 			<div class="col-md-9 u-pad-right">
 				<div>
 					<h4>Episode Synopsis</h4>
-					<p><?php echo $episode["description"]; ?></p>
+					<p><?php echo $Parsedown->text($episode["description"]); ?></p>
 				</div>
 				<div class="vm-xs-top-3">
 					<?php if( have_rows('guest_bio') ) : while ( have_rows('guest_bio') ) : the_row(); ?>
@@ -70,9 +73,9 @@ $episode = $simplecast->podcastEpisode([
 				</div>
 				<div class="vm-xs-top-3">
 					<h4>Episode Links</h4>
-					<div class="row vp-xs-top-1 u-bg-lightgray u-pad-left u-pad-right single-episode-links">
+					<div class="row vp-xs-top-1 u-bg-lightgray u-pad-left u-pad-right single-episode-links" style="overflow: hidden;">
 						<p>We referenced a few things throughout the episode. Here is a list of some links and photos we talked about! Enjoy!</p>
-						<p><?php echo $episode["long_description"]; ?></p>
+						<p><?php echo $Parsedown->text($episode["long_description"]); ?></p>
 					</div>
 				</div>
 			</div>
