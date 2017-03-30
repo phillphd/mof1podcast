@@ -89,19 +89,19 @@ $episode_title = explode(":", $episode["title"]);
 		</div>
 		<div class="row section__content section__content--big">
 			<div class="episode-box">
-				<div class="episode-box__img" style="background-image: url('http://hotseat.mof1podcast.com/wp-content/themes/launchframe/assets/src/img/bg.jpg');"></div>
+				<div class="episode-box__img" style="background-image: url('http://mof1podcast.com/wp-content/uploads/2017/03/static1.squarespace.png');"></div>
 				<div class="episode-box__meta">
-					<p>Hot Seat Interviews</p>
-					<p class="airdate">Listen to interviews with incredible creatives from the floor of ReImagine Conference 2016.</p>
-					<a class="button sm-btn" href="http://hotseat.mof1podcast.com/">Read More</a>
+					<p>Creative South Events</p>
+					<p class="airdate">Visit us April 6-9 at our booth at Creative South! There will be swag, giveaways and the chance to jump into the Mof1 Hotseat.</p>
+					<a class="button sm-btn" href="https://www.creativesouth.com/events">Read More</a>
 				</div>
 			</div>
 			<div class="episode-box">
-				<div class="episode-box__img" style="background-image: url('http://mof1podcast.com/wp-content/uploads/2016/12/HMT_ad.jpg');"></div>
+				<div class="episode-box__img" style="background-image: url('http://mof1podcast.com/wp-content/uploads/2017/03/ColoringBook-Promo-2.jpg');"></div>
 				<div class="episode-box__meta">
-					<p>Holiday Meal Time With Friends</p>
-					<p class="airdate">We are excited to announce a delicious collaboration to bring you an amazing holiday meal time! Check it out!</p>
-					<a class="button sm-btn" href="http://mof1podcast.com/holiday-meal-time-with-friends/">Read More</a>
+					<p>Mof1 Artist Coloring Book</p>
+					<p class="airdate">Featuring an incredible lineup of your favorite artists (as well as some new favorites you may not know about yet), the Mof1 Coloring Book is your chance to collaborate and flex your skills! A huge thanks to all the artists that contributed!</p>
+					<a class="button sm-btn" href="https://www.instagram.com/p/BSPK2gGhMPB/?taken-by=mof1podcast">Read More</a>
 				</div>
 			</div>
 		</div>
