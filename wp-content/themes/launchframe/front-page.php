@@ -54,7 +54,7 @@ $episode_title = explode(":", $episode["title"]);
 		<div class="row vp-xxs-top-3 vp-xxs-bottom-2 vp-lg-top-5 vp-lg-bottom-5">
 			<div class="col-md-6 col-lg-5 vm-xxs-bottom-2 vm-md-bottom-0">
 				<div class="btn-slack">
-					<a href="https://now-examples-slackin-edilztozwf.now.sh/" target="_blank" class="btn-slack__link"></a>
+					<a href="https://now-examples-slackin-vhveoonyoc.now.sh/" target="_blank" class="btn-slack__link"></a>
 					<div class="btn-slack__img">
 						<img src="<?php bloginfo('template_directory');?>/assets/src/img/home/Slack_Mark_Web.png">
 					</div>
