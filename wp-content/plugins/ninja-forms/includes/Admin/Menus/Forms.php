@@ -27,6 +27,21 @@ final class NF_Admin_Menus_Forms extends NF_Abstracts_Menu
 
     public function admin_init()
     {
+        /*
+         * If we aren't on the Ninja Forms menu page, don't admin_init.
+         */
+        if ( empty( $_GET[ 'page' ] ) || 'ninja-forms' !== $_GET[ 'page' ] ) {
+            return false;
+        }
+
+        /*
+         * Database Table Check
+         * If the nf3_ database tables do not exist, then re-run activation.
+         */
+        if ( ! ninja_forms_three_table_exists() ) {
+            Ninja_Forms()->activation();
+        }
+
         if( isset( $_GET[ 'form_id' ] ) && ! is_numeric( $_GET[ 'form_id' ] ) && 'new' != $_GET[ 'form_id' ] ) {
             if( current_user_can( apply_filters( 'ninja_forms_admin_import_template_capabilities', 'manage_options' ) ) ) {
                 $this->import_from_template();
@@ -93,7 +108,13 @@ final class NF_Admin_Menus_Forms extends NF_Abstracts_Menu
     {
         $template = sanitize_title( $_GET['form_id'] );
 
-        $form = Ninja_Forms::template( $template . '.nff', array(), TRUE );
+        $templates = Ninja_Forms::config( 'NewFormTemplates' );
+
+        if( isset( $templates[ $template ] ) && ! empty( $templates[ $template ][ 'form' ] ) ) {
+            $form = $templates[ $template ][ 'form' ];
+        } else {
+            $form = Ninja_Forms::template( $template . '.nff', array(), TRUE );
+        }
 
         if( ! $form ) die( 'Template not found' );
 

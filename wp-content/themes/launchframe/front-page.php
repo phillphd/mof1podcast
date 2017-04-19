@@ -92,8 +92,8 @@ $episode_title = explode(":", $episode["title"]);
 				<div class="episode-box__img" style="background-image: url('http://mof1podcast.com/wp-content/uploads/2017/03/static1.squarespace.png');"></div>
 				<div class="episode-box__meta">
 					<p>Creative South Events</p>
-					<p class="airdate">Visit us April 6-9 at our booth at Creative South! There will be swag, giveaways and the chance to jump into the Mof1 Hotseat.</p>
-					<a class="button sm-btn" href="https://www.creativesouth.com/events">Read More</a>
+					<p class="airdate">Creative South was an amazing time! We interviewed 30 hihg-level artists at the event and we'll be rolling out the interviews all month long. Huge thanks to Synergy Sign and Outside World for making Camp Mof1 the place to be!</p>
+					<a class="button sm-btn" href="http://hotseat.mof1podcast.com/">Read More</a>
 				</div>
 			</div>
 			<div class="episode-box">
@@ -101,7 +101,7 @@ $episode_title = explode(":", $episode["title"]);
 				<div class="episode-box__meta">
 					<p>Mof1 Artist Coloring Book</p>
 					<p class="airdate">Featuring an incredible lineup of your favorite artists (as well as some new favorites you may not know about yet), the Mof1 Coloring Book is your chance to collaborate and flex your skills! A huge thanks to all the artists that contributed!</p>
-					<a class="button sm-btn" href="https://www.instagram.com/p/BSPK2gGhMPB/?taken-by=mof1podcast">Read More</a>
+					<a class="button sm-btn" href="http://mof1podcast.bigcartel.com/product/artist-coloring-book">Read More</a>
 				</div>
 			</div>
 		</div>

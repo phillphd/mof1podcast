@@ -3,7 +3,7 @@ Contributors: wpninjasllc, kstover, jameslaws, kbjohnson90, klhall1987, wpnzach,
 Tags: form, forms, contact form, custom form, form builder, form creator, form manager, form creation, contact forms, custom forms, forms builder, forms creator, forms manager, forms creation, form administration,
 Requires at least: 4.5
 Tested up to: 4.7
-Stable tag: 3.0.20
+Stable tag: 3.0.34
 License: GPLv2 or later
 
 Drag and drop fields in an intuitive UI to create create contact forms, email subscription forms, order forms, payment forms, send emails and more!
@@ -102,25 +102,170 @@ For help and video tutorials, please visit our website: [Ninja Forms Documentati
 
 == Upgrade Notice ==
 
-= 3.0.20 (21 December 2016) =
-
-*Changes:*
-
-* Added a prompt before deleting forms on the all-forms table.
-* Added the ability to use: {field:name} <{field:email}> to get Name - Address formatting in email actions CC, BCC, Reply-To Field.
-* Updated the third-party EDD library.
-* Removed references to the modernizer library from the builder.
-* Added Twilio and Videomail to the list of available actions.
+= 3.0.34 (18 April 2017) =
 
 *Bugs:*
 
-* Fixed a bug that caused fields to be out of order when exporting or editing submissions.
-* Product fields should now respect locale-specific number formating.
-* Fixed a bug with restarting form submit. This caused issues with PayPal Express and other add-ons.
-* When adding new list options, the 'value' should auto-populate from 'label' setting.
-* The tab order for list options should now work properly.
+* Fixed a bug that could cause emails to fail with a 500 internal server error.
 
 == Changelog ==
+
+= 3.0.34 (18 April 2017) =
+
+*Bugs:*
+
+* Fixed a bug that could cause emails to fail with a 500 internal server error.
+
+= 3.0.33 (11 April 2017) =
+
+*Changes:*
+
+* Added an admin warning notice if Contact Form 7 is installed.
+* Users who upgrade to version 3.0 will now see an admin notice instructing them to check their converted forms.
+* Added the TLS version, if installed, to the get help page.
+* Fixed a bug that could cause a PHP fatal error with older, insecure versions of PHP.
+
+*Bugs:*
+
+* Fixed a bug that caused field labels to be output multiple times in submission exports.
+* Removed several PHP Warnings related to publishing longer forms.
+* Updated inline email check so that it should work on longer domains, i.e. co.uk.
+* Editing submissions with single checkboxes should now save properly.
+* Fields should be properly sorted in CSV files attached to emails.
+* Sequential IDs for submissions on converted or imported forms should not reset.
+
+= 3.0.32 (11 April 2017) =
+
+*Changes:*
+
+* Added an admin warning notice if Contact Form 7 is installed.
+* Users who upgrade to version 3.0 will now see an admin notice instructing them to check their converted forms.
+* Added the TLS version, if installed, to the get help page.
+
+*Bugs:*
+
+* Fixed a bug that caused field labels to be output multiple times in submission exports.
+* Removed several PHP Warnings related to publishing longer forms.
+* Updated inline email check so that it should work on longer domains, i.e. co.uk.
+* Editing submissions with single checkboxes should now save properly.
+* Fields should be properly sorted in CSV files attached to emails.
+* Sequential IDs for submissions on converted or imported forms should not reset.
+
+= 3.0.31 (07 March 2017) =
+
+*Bugs:*
+
+* Confirmed password fields should work properly.
+* Fixed a bug with List Fields that caused the Import button to overlap the Add New button.
+* Closed a possible security vulnerability by escaping HTML in the builder.
+* CSV files should now be deleted from the server after they are emailed when attached to an email action.
+
+*Changes:*
+
+* Added a filter so that add-ons and custom code can add forms to the templates section of the New Form builder.
+
+= 3.0.30 (28 February 2017) =
+
+*Bugs:*
+
+* Publishing a form should now populate the backup database properly in all environments.
+* Editing submissions that have selects or other lists should now work properly.
+
+*Changes:*
+
+* Added Trello to the available actions list.
+* Added a JS exception catcher to help debug when forms don't display because of JS errors.
+
+= 3.0.29 (21 February 2017) =
+
+*Bugs:*
+
+* Fixed a bug that could cause previewed forms from submitting properly.
+
+= 3.0.28 (21 February 2017) =
+
+*Bugs:*
+
+* Fixed a JS notice caused by the use of jQuery.attr() instead of jQuery.prop().
+* Modified the approach to form publishing to improve performance for larger forms and prevent bugs when saving.
+* Google reCaptcha should now work properly when a field has an error.
+
+*Changes:*
+
+* Added a jQuery event: "nfFormReady" to the document that can be used to fire JS code when a form has loaded.
+* Using jQuery.val() should now properly work for Ninja Forms fields.
+* Updated the update check URL for add-ons.
+* Added a filter for form settings upon form display localization.
+
+= 3.0.27 (2 February 2017) =
+
+*Bugs:*
+
+* Field data should populate properly in all submission exports.
+
+= 3.0.26 (30 January 2017) =
+
+*Bugs:*
+
+* Field data should populate properly in submission exports.
+* Email errors upon form submission should be clearer.
+* Fixed a compatibility bug with other plugins that use the WP List Table.
+
+= 3.0.26 (30 January 2017) =
+
+*Bugs:*
+
+* Field data should populate properly in submission exports.
+* Email errors upon form submission should be clearer.
+* Fixed a compatibility bug with other plugins that use the WP List Table.
+
+= 3.0.25 (26 January 2017) =
+
+*Changes:*
+
+* Increasing the performance of submissions and form builder loading.
+* Improved compatibility with popular caching plugins.
+
+*Bugs:*
+
+* Field tags should now properly populate in calculation merge tags.
+* Submission exports should now always order properly.
+* Fixed a bug with submissions exporting non-Ninja Forms data.
+* Importing forms with non-UTF8 characters should now import properly.
+* Fixed a bug with converting froms from 2.9.x to 3.0.
+
+= 3.0.24 (15 January 2017) =
+
+*Bugs:*
+
+* Fixed a bug with Google reCaptcha and the deprecated, 2.9.x codebase.
+
+= 3.0.23 (12 January 2017) =
+
+*Bugs:*
+
+* Fixed a bug with form duplication.
+
+= 3.0.22 (11 January 2017) =
+
+*Bugs:*
+
+* Fixed a bug that caused installations to crash on older, unsecure versions of PHP.
+
+= 3.0.21 (11 January 2017) =
+
+*Changes:*
+
+* Added an import for list options.
+* Refactored form submissions so that they are more responsive for longer forms with more submissions.
+* Moved the 'reply_to' setting to the primary section in email actions.
+* Added error handling for invalid "TO" email addresses.
+
+*Bugs:*
+
+* Fixed a bug with calculations that caused brackets to appear in calculation fields.
+* On/off settings should now save properly in all situations.
+* Dragging a field should now properly scroll the screen.
 
 = 3.0.20 (21 December 2016) =
 
