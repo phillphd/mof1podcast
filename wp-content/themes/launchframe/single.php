@@ -90,8 +90,8 @@ $Parsedown = new Parsedown();
 					</ul>
 				</div>
 				<div class="row vm-xs-top-1">
-					<div class="mof1-ad mof1-ad--single" style="background-image: url(<?php bloginfo('template_directory');?>/assets/src/img/infinity/BF-Infinity-Side.png);">
-						<a href="https://www.baronfig.com/products/infinity?utm_source=mof1podcast&utm_campaign=Baron_Fig__Infinity&utm_medium=website" title="Infinity by Baron Fig" target="_blank"></a>
+					<div class="mof1-ad mof1-ad--single" style="background-image: url(<?php bloginfo('template_directory');?>/assets/src/img/bag/BF-Bags-Side.png);">
+						<a href="http://mof1podcast.com/bag?utm_source=mof1podcast&utm_campaign=Baron_Fig__Bag&utm_medium=website" title="Bags for Thinkers by Baron Fig" target="_blank"></a>
 					</div>
 				</div>
 			</div>
