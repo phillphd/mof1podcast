@@ -47,8 +47,8 @@ $episode_title = explode(":", $episode["title"]);
 <section class="u-bg-gray-light">
 	<div class="container">
 		<div class="row  vp-xxs-top-3 vp-lg-top-4">
-			<div class="mof1-ad mof1-ad--fullWidth" style="background-image: url(<?php bloginfo('template_directory');?>/assets/src/img/bag/BF-Bags-fullWidth.png);">
-				<a href="http://mof1podcast.com/bag?utm_source=mof1podcast&utm_campaign=Baron_Fig__Bag&utm_medium=website" title="Bags for Thinkers by Baron Fig" target="_blank"></a>
+			<div class="mof1-ad mof1-ad--fullWidth" style="background-image: url(<?php bloginfo('template_directory');?>/assets/src/img/castpro/Castpro-Ad-FullWidth.png);">
+				<a href="http://mof1podcast.com/castpro?utm_source=mof1podcast&utm_campaign=Castpro&utm_medium=website" title="Castpro - Your Podcast Partner" target="_blank"></a>
 			</div>
 		</div>
 		<div class="row vp-xxs-top-3 vp-xxs-bottom-2 vp-lg-top-5 vp-lg-bottom-5">
