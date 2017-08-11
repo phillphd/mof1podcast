@@ -32,7 +32,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12 copyright">
-					© 2014-2016 Master of One, LLC
+					© 2014-<?php echo date("Y"); ?> Master of One, LLC
 				</div>
 			</div>
 		</div>
@@ -41,7 +41,6 @@
 
 <?php wp_footer(); ?>
 
-<script type='text/javascript' src='<?php get_site_url(); ?>/wp-content/themes/launchframe/assets/src/js/mediaelement-and-player.min.js'></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

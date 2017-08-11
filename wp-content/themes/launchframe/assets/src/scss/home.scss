@@ -30,17 +30,16 @@
     }
 
     .btn-slack {
-        padding: 12px 12px 6px 32%;
-        background-color: #FFF;
+        position: relative;
+        height: 74px;
+        overflow: hidden;
+        background-color: #E6E6E8;
         border: 2px solid #D3D3D3;
         border-radius: 10px;
         transition: .5s;
         @media only screen and (min-width: 768px) {
-            padding: 16px 16px 12px 33%;
+            height: 112px;
             margin-right: 20px;
-        }
-        @media only screen and (min-width: 1050px) {
-            padding: 18px 30px 18px 30%;
         }
         &:hover {
             cursor: pointer;
@@ -48,16 +47,14 @@
         }
         &__img {
             position: absolute;
-            top: 10px;
-            left: 10px;
-            height: calc(100% - 20px);
-            img {
-                max-height: 100%;
-            }
-        }
-        &__text {
-            display: inline-block;
+            top: 0;
+            left: 0;
             width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: right center;
+            background-repeat: no-repeat;
+            content: "";
         }
         &__link {
             position: absolute;
@@ -67,9 +64,6 @@
             width: 100%;
             height: 100%;
             content: "";
-        }
-        p {
-            margin-bottom: 0;
         }
     }
 
@@ -464,6 +458,7 @@
     }
     &__divider {
         position: relative;
+        margin-bottom: 32px;
         &::before {
             position: absolute;
             top: 48%;
@@ -476,11 +471,13 @@
         }
     }
     &__logo {
-        position: relative;
+        position: absolute;
+        top: 50%;
+        left: 50%;
         z-index: 9;
         display: inline-block;
-        height: 38px;
-        margin: 0 auto;
+        height: auto;
+        transform: translateX(-50%) translateY(-50%);
         &::after {
             position: absolute;
             top: -5px;
@@ -505,12 +502,14 @@
         svg {
             float: none;
             z-index: 9;
-            max-width: 260px;
+            max-width: 100%;
+            width: 255px;
+            margin-bottom: -8px;
             @media only screen and (min-width: 768px) {
-                max-width: 330px;
+                width: 325px;
             }
             @media only screen and (min-width: 1050px) {
-                max-width: 425px;
+                width: 375px;
             }
         }
     }
@@ -544,9 +543,9 @@
         position: relative;
         padding: 0 26px;
         margin: 0;
-        font-family: 'upstaterregular', 'Roboto', sans-serif;
-        font-size: 3rem;
-        letter-spacing: .5px;
+        font-family: 'ddchardware', 'Roboto', sans-serif;
+        font-size: 2.5rem;
+        letter-spacing: 0;
         line-height: 1;
         text-transform: uppercase;
         @media only screen and (max-width: 543px) {
@@ -555,7 +554,7 @@
             margin: 75px 0 0;
         }
         @media only screen and (min-width: 1050px) {
-            font-size: 3.6rem;
+            font-size: 3.2rem;
         }
         &::after {
             position: absolute;
@@ -625,20 +624,11 @@
             background-color: #FFF;
             content: "";
         }
-        &::before {
-            position: absolute;
-            top: 50%;
-            left: -22px;
-            z-index: -2;
-            width: calc(100% + 44px);
-            height: 35px;
-            background-color: #9A9393;
-            content: "";
-            transform: translateY(-50%);
-        }
         svg {
             float: none;
             z-index: 9;
+            width: 100%;
+            max-width: 80px;
         }
     }
     ul {
@@ -676,4 +666,9 @@
         letter-spacing: 0;
         text-transform: none;
     }
+}
+
+#mof1-map {
+    width: 100%;
+    height: 600px;
 }

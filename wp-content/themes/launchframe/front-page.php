@@ -46,30 +46,12 @@ $episode_title = explode(":", $episode["title"]);
 
 <section class="u-bg-gray-light">
 	<div class="container">
-		<div class="row  vp-xxs-top-3 vp-lg-top-4">
-			<div class="mof1-ad mof1-ad--fullWidth" style="background-image: url(<?php bloginfo('template_directory');?>/assets/src/img/castpro/Castpro-Ad-FullWidth.png);">
-				<a href="http://mof1podcast.com/castpro?utm_source=mof1podcast&utm_campaign=Castpro&utm_medium=website" title="Castpro - Your Podcast Partner" target="_blank"></a>
-			</div>
-		</div>
 		<div class="row vp-xxs-top-3 vp-xxs-bottom-2 vp-lg-top-5 vp-lg-bottom-5">
-			<div class="col-md-6 col-lg-5 vm-xxs-bottom-2 vm-md-bottom-0">
-				<div class="btn-slack">
-					<a href="https://now-examples-slackin-vhveoonyoc.now.sh/" target="_blank" class="btn-slack__link"></a>
-					<div class="btn-slack__img">
-						<img src="<?php bloginfo('template_directory');?>/assets/src/img/home/Slack_Mark_Web.png">
-					</div>
-					<div class="btn-slack__text">
-						<h5>Join Mof1 on Slack<br />It's a party.</h5>
-						<p style="display: inline-block;">I like to party!</p>
-					</div>
-				</div>
+			<div class="col-md-6 vm-xxs-bottom-2 vm-md-bottom-0">
+				<a href="https://now-examples-slackin-vhveoonyoc.now.sh/" target="_blank" class="big-button" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Slack_Button-icon.png');">Join the <strong>Community</strong> &amp; the <br /><strong>Conversation</strong> on Slack!</a>
 			</div>
-			<div class="col-md-6 col-lg-7">
-				<div class="contact-form">
-					<h5 class="contact-form__header">Sign Up for Exclusive Content</h5>
-					<p class="contact-form__header">( No Spam. For Reals! )</p>
-					<?php include '_partial-signup.php'; ?>
-				</div>
+			<div class="col-md-6">
+				<a href="https://www.patreon.com/mof1podcast" target="_blank" class="big-button" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Patreon_Button-icon.png');">Show Your <strong>Support</strong> &amp; Shape <br />Our <strong>Future</strong> on Patreon!</a>
 			</div>
 		</div>
 	</div>
@@ -79,74 +61,37 @@ $episode_title = explode(":", $episode["title"]);
 	<div class="section__bg"></div>
 	<div class="container">
 		<div class="row section__header">
-			<div class="col-lg-2 vm-xxs-bottom-2 vm-lg-bottom-0">
+			<div class="col-lg-3 col-xl-2 vm-xxs-bottom-2 vm-lg-bottom-0">
 				<h2>Dispatch</h2>
-				<a href="/archive/" class="section__link p">More Dispatch</a>
 			</div>
-			<div class="col-lg-8">
+			<div class="col-lg-8 col-xl-7">
 				<p>Mof1 is out on the street at conferences, attending the latest and greatest art shows, movies, etc. Keep up with where (and when) we are in the world.</p>
 			</div>
 		</div>
 		<div class="row section__content section__content--big">
-			<div class="episode-box">
-				<div class="episode-box__img" style="background-image: url('http://mof1podcast.com/wp-content/uploads/2017/03/static1.squarespace.png');"></div>
-				<div class="episode-box__meta">
-					<p>Creative South Events</p>
-					<p class="airdate">Creative South was an amazing time! We interviewed 30 hihg-level artists at the event and we'll be rolling out the interviews all month long. Huge thanks to Synergy Sign and Outside World for making Camp Mof1 the place to be!</p>
-					<a class="button sm-btn" href="http://hotseat.mof1podcast.com/">Read More</a>
-				</div>
-			</div>
-			<div class="episode-box">
-				<div class="episode-box__img" style="background-image: url('http://mof1podcast.com/wp-content/uploads/2017/03/ColoringBook-Promo-2.jpg');"></div>
-				<div class="episode-box__meta">
-					<p>Mof1 Artist Coloring Book</p>
-					<p class="airdate">Featuring an incredible lineup of your favorite artists (as well as some new favorites you may not know about yet), the Mof1 Coloring Book is your chance to collaborate and flex your skills! A huge thanks to all the artists that contributed!</p>
-					<a class="button sm-btn" href="http://mof1podcast.bigcartel.com/product/artist-coloring-book">Read More</a>
-				</div>
+			<div id="mof1-map"></div>
+		</div>
+		<div class="row">
+			<div class="mof1-ad mof1-ad--fullWidth" style="background-image: url(<?php bloginfo('template_directory');?>/assets/src/img/castpro/Castpro-Ad-FullWidth.png);">
+				<a href="http://mof1podcast.com/castpro?utm_source=mof1podcast&utm_campaign=Castpro&utm_medium=website" title="Castpro - Your Podcast Partner" target="_blank"></a>
 			</div>
 		</div>
 	</div>
 </section>
-
+<!-- 
 <section class="section">
 	<div class="container">
 		<div class="row section__header">
-			<div class="col-lg-2 vm-xxs-bottom-2 vm-lg-bottom-0">
+			<div class="col-lg-3 col-xl-2 vm-xxs-bottom-2 vm-lg-bottom-0">
 				<h2>Network</h2>
 				<a href="/network-news/" class="section__link p">More News</a>
 			</div>
-			<div class="col-lg-8">
+			<div class="col-lg-8 col-xl-7">
 				<p>We curate various articles, podcasts, items, and websites that we think you will love. If you like what you see, support them by downloading an episode, sharing their article on social media, or but their stuff and tell ‘em that we sent ya!</p>
 			</div>
 		</div>
-		<div class="row section__content">
-			<div class="episode-box episode-box--network">
-				<div class="episode-box__img" style="background-image: url('http://2e4fmm4173kfqb7uraadejq8.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/Screen-Shot-2015-09-26-at-5.01.00-PM.png');"></div>
-				<div class="episode-box__meta">
-					<p>Hey Monkey! Design</p>
-					<p class="airdate">Lenny Terenzi</p>
-					<a class="button sm-btn" href="http://www.heymonkeydesign.com/">Read More</a>
-				</div>
-			</div>
-			<div class="episode-box episode-box--network">
-				<div class="episode-box__img" style="background-image: url('http://2e4fmm4173kfqb7uraadejq8.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/Kolb_site_img.png');"></div>
-				<div class="episode-box__meta">
-					<p>Kolb is Neat</p>
-					<p class="airdate">Andrew Kolb</p>
-					<a class="button sm-btn" href="http://www.kolbisneat.com/">Read More</a>
-				</div>
-			</div>
-			<div class="episode-box episode-box--network">
-				<div class="episode-box__img" style="background-image: url('http://2e4fmm4173kfqb7uraadejq8.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/JustinPeterson_site_img.png');"></div>
-				<div class="episode-box__meta">
-					<p>Justin Peterson Art</p>
-					<p class="airdate">Justin Peterson</p>
-					<a class="button sm-btn" href="http://justinpeterson.bigcartel.com/">Read More</a>
-				</div>
-			</div>
-		</div>
 	</div>
-</section>
+</section> -->
 
 <section class="section u-bg-gray-light">
 	<div class="container">
@@ -181,11 +126,11 @@ $episode_title = explode(":", $episode["title"]);
 	<div class="section__bg"></div>
 	<div class="container">
 		<div class="row section__header">
-			<div class="col-lg-2 vm-xxs-bottom-2 vm-lg-bottom-0">
+			<div class="col-lg-3 col-xl-2 vm-xxs-bottom-2 vm-lg-bottom-0">
 				<h2>About</h2>
 				<a href="/the-masters/" class="section__link p">Meet The Masters</a>
 			</div>
-			<div class="col-lg-8">
+			<div class="col-lg-8 col-xl-7">
 				<p>So what makes us the “masters” of our genre? Well, when we say we are the master in a topic, it simply means that we are incredibly passionate about that thing and that—for the context of the show—we are the “go to” for that category</p>
 			</div>
 		</div>

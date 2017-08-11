@@ -1,10 +1,9 @@
 @font-face {
-    font-family: 'upstaterregular';
-    src: url('../fonts/upstater-regular-webfont.woff2') format('woff2'),
-         url('../fonts/upstater-regular-webfont.woff') format('woff');
+    font-family: 'ddchardware';
+    src: url('../../src/fonts/ddchardware-compressed-webfont.woff2') format('woff2'),
+         url('../../src/fonts/ddchardware-compressed-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /* Typography
@@ -32,9 +31,9 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 h1, .h1,
 h2, .h2 {
-    font-family: 'upstaterregular', 'Roboto', sans-serif;
+    font-family: 'ddchardware', 'Roboto', sans-serif;
     font-size: 4.4rem;
-    line-height: 1;
+    line-height: .9;
     text-transform: uppercase;
     @media only screen and (min-width: 768px) {
         font-size: 5.2rem;
@@ -216,4 +215,11 @@ html {
 
 .u-color-primary {
   color: $primary;
+}
+
+.text-grad {
+  background-image: linear-gradient(to bottom right, #662d91, #da1c5c);
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
