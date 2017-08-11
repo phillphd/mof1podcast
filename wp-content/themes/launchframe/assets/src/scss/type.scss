@@ -218,8 +218,10 @@ html {
 }
 
 .text-grad {
+  color: transparent;
+  background-image: -webkit-linear-gradient(top left, #662d91, #da1c5c);
+  background-image: -o-linear-gradient(top left, #662d91, #da1c5c);
   background-image: linear-gradient(to bottom right, #662d91, #da1c5c);
-  color:transparent;
   -webkit-background-clip: text;
   background-clip: text;
 }

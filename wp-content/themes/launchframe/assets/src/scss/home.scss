@@ -70,6 +70,17 @@
     .signup {
         &__wrapper {
             position: relative;
+            &::after {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background-image: -webkit-linear-gradient(top left, #662d91, #da1c5c);
+                background-image: -o-linear-gradient(top left, #662d91, #da1c5c);
+                background-image: linear-gradient(to bottom right, #662d91, #da1c5c);
+                content: "";
+            }
             input[type="email"] {
                 display: block;
                 width: 100%;
@@ -607,7 +618,9 @@
             left: 0;
             width: 100%;
             height: 2px;
-            background-color: #9A9393;
+            background-image: -webkit-linear-gradient(top left, #662d91, #da1c5c);
+            background-image: -o-linear-gradient(top left, #662d91, #da1c5c);
+            background-image: linear-gradient(to bottom right, #662d91, #da1c5c);
             content: "";
             transform: translateY(-50%);
         }
@@ -672,13 +685,67 @@
 }
 
 #mof1-map {
+    display: none;
     width: 100%;
     height: 600px;
     box-shadow: 4px 4px 20px 0 rgba(90, 111, 131, 0.22);
+    @media only screen and (min-width: 768px) {
+        display: block;
+    }
 }
 
 .event-list {
-    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 30px;
     margin: 0;
+    background-color: #58595B;
     list-style-type: none;
+    li {
+        position: relative;
+        width: 100%;
+        padding: 0 0 0 60px;
+        margin: 20px 0;
+        height: auto;
+        font-family: 'ddchardware', 'Roboto', sans-serif;
+        font-size: 3rem;
+        line-height: 1;
+        color: #FFF;
+        @media only screen and (min-width: 992px) {
+            width: 50%;
+            height: 60px;
+        }
+        @media only screen and (min-width: 1440px) {
+            width: 25%;
+        }
+    }
+    span {
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        &::after {
+            position: absolute;
+            top: -7px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-image: -webkit-linear-gradient(top left, #662d91, #da1c5c);
+            background-image: -o-linear-gradient(top left, #662d91, #da1c5c);
+            background-image: linear-gradient(to bottom right, #662d91, #da1c5c);
+            content: "";
+        }
+    }
+    .evt-icn {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60px;
+        height: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url('../../src/img/map/marker_events.png');
+        content: "";
+    }
 }

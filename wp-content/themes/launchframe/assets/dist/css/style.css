@@ -362,8 +362,8 @@ html {
   color: #DA1C5C; }
 
 .text-grad {
-  background-image: linear-gradient(to bottom right, #662d91, #da1c5c);
   color: transparent;
+  background-image: linear-gradient(to bottom right, #662d91, #da1c5c);
   -webkit-background-clip: text;
   background-clip: text; }
 
@@ -2369,6 +2369,14 @@ div[class*="col-"] {
 
 .home .signup__wrapper {
   position: relative; }
+  .home .signup__wrapper::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(to bottom right, #662d91, #da1c5c);
+    content: ""; }
   .home .signup__wrapper input[type="email"] {
     display: block;
     width: 100%;
@@ -2846,7 +2854,7 @@ div[class*="col-"] {
       left: 0;
       width: 100%;
       height: 2px;
-      background-color: #9A9393;
+      background-image: linear-gradient(to bottom right, #662d91, #da1c5c);
       content: "";
       -webkit-transform: translateY(-50%);
               transform: translateY(-50%); }
@@ -2900,14 +2908,68 @@ div[class*="col-"] {
     text-transform: none; }
 
 #mof1-map {
+  display: none;
   width: 100%;
   height: 600px;
   box-shadow: 4px 4px 20px 0 rgba(90, 111, 131, 0.22); }
+  @media only screen and (min-width: 768px) {
+    #mof1-map {
+      display: block; } }
 
 .event-list {
-  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px 30px;
   margin: 0;
+  background-color: #58595B;
   list-style-type: none; }
+  .event-list li {
+    position: relative;
+    width: 100%;
+    padding: 0 0 0 60px;
+    margin: 20px 0;
+    height: auto;
+    font-family: 'ddchardware', 'Roboto', sans-serif;
+    font-size: 3rem;
+    line-height: 1;
+    color: #FFF; }
+    @media only screen and (min-width: 992px) {
+      .event-list li {
+        width: 50%;
+        height: 60px; } }
+    @media only screen and (min-width: 1440px) {
+      .event-list li {
+        width: 25%; } }
+  .event-list span {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase; }
+    .event-list span::after {
+      position: absolute;
+      top: -7px;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-image: linear-gradient(to bottom right, #662d91, #da1c5c);
+      content: ""; }
+  .event-list .evt-icn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../../src/img/map/marker_events.png");
+    content: ""; }
 
 .page-conference {
   background-color: #EDE4E4; }
