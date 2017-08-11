@@ -573,6 +573,7 @@ div[class*="col-"] {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+    box-shadow: 4px 4px 20px 0 rgba(90, 111, 131, 0.22);
 	transition: .3s;
 	&:hover {
 		box-shadow: 0 0 20px -5px #000;

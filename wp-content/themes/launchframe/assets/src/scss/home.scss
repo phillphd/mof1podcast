@@ -89,6 +89,9 @@
                     height: 70px;
                     font-size: 3.2rem;
                 }
+                &:focus {
+                    border-bottom: 2px solid #DA1C5C;
+                }
                 &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
                     font-size: 2.2rem;
                     color: #282828;
@@ -579,7 +582,7 @@
         color: #282727;
         transition: .5s;
         &:hover {
-            color: #EF227A;
+            color: #DA1C5C;
         }
     }
 }
@@ -656,7 +659,7 @@
         color: #9A9393;
         transition: .5s;
         &:hover {
-            color: #EF227A;
+            color: #DA1C5C;
         }
     }
     .copyright {
@@ -671,4 +674,5 @@
 #mof1-map {
     width: 100%;
     height: 600px;
+    box-shadow: 4px 4px 20px 0 rgba(90, 111, 131, 0.22);
 }
