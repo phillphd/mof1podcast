@@ -76,6 +76,15 @@ $episode_title = explode(":", $episode["title"]);
 				<a href="http://mof1podcast.com/castpro?utm_source=mof1podcast&utm_campaign=Castpro&utm_medium=website" title="Castpro - Your Podcast Partner" target="_blank"></a>
 			</div>
 		</div>
+		<!-- <div class="row">
+			<ul class="event-list">
+				<li>Reimagine Conference <span>October 19-21</span></li>
+				<li>Pop-Up Crop <span>Novemeber 3</span></li>
+				<li>Mondocon <span>Novemeber 4-5</span></li>
+				<li>Creative South <span>April 12-15</span></li>
+				<li>Crop BR</li>
+			</ul>
+		</div> -->
 	</div>
 </section>
 <!-- 
