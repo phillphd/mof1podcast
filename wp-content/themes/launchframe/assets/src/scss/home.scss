@@ -225,7 +225,7 @@
         }
         &__read-more {
             display: inline-block;
-            padding: 16px 55px 18px 20px;
+            padding: 21px 55px 8px 20px;
             margin-top: 30px;
             margin-bottom: 5px;
             color: #FFF;
@@ -236,7 +236,7 @@
                 margin-top: 45px;
             }
             @media only screen and (min-width: 1050px) {
-                padding: 18px 64px 20px 24px;
+                padding: 23px 64px 10px 24px;
                 margin-top: 75px;
             }
             &:hover {
@@ -413,43 +413,6 @@
                 @media only screen and (min-width: 1050px) {
                     margin-top: -3px;
                 }
-            }
-        }
-    }
-
-    .master-list {
-        padding: 0;
-        margin: 0 auto;
-        text-align: center;
-        &__img {
-            position: relative;
-            width: 130px;
-            height: 130px;
-            border-radius: 50%;
-            content: "";
-            overflow: hidden;
-            @media only screen and (min-width: 768px) {
-                width: 170px;
-                height: 170px;
-            }
-            @media only screen and (min-width: 1050px) {
-                width: 200px;
-                height: 200px;
-            }
-        }
-        &__meta {
-            p {
-                margin-bottom: 3px;
-            }
-        }
-        li {
-            display: inline-block;
-            margin: 0 10px;
-            @media only screen and (min-width: 768px) {
-                margin: 0 30px;
-            }
-            @media only screen and (min-width: 1050px) {
-                margin: 0 50px;
             }
         }
     }
@@ -747,5 +710,65 @@
         background-repeat: no-repeat;
         background-image: url('../../src/img/map/marker_events.png');
         content: "";
+    }
+}
+
+.amaster-column {
+    text-align: center;
+    @media only screen and (min-width: 768px) {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 174px;
+        transform: translateY(-50%);
+    }
+}
+
+.amaster {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    @media only screen and (min-width: 768px) {
+        display: block;
+        margin: 0;
+    }
+    &__img {
+        position: relative;
+        width: 134px;
+        height: 134px;
+        overflow: hidden;
+        background-image: -webkit-linear-gradient(top left, #662d91, #da1c5c);
+        background-image: -o-linear-gradient(top left, #662d91, #da1c5c);
+        background-image: linear-gradient(to bottom right, #662d91, #da1c5c);
+        border-radius: 50%;
+        @media only screen and (min-width: 768px) {
+            width: 174px;
+            height: 174px;
+        }
+        .the-image {
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            width: 130px;
+            height: 130px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+            content: "";
+            @media only screen and (min-width: 768px) {
+                width: 170px;
+                height: 170px;
+            }
+        }
+    }
+    &__name {
+        margin: 4px 0 8px;
+        font-family: 'ddchardware', 'Roboto', sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        span {
+            opacity: .6;
+        }
     }
 }

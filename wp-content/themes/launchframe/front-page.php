@@ -79,7 +79,7 @@ $episode_title = explode(":", $episode["title"]);
 				<li><div class="evt-icn"></div>Creative South<br /><span>April 12-15</span></li>
 			</ul>
 		</div>
-		<div class="row">
+		<div class="row vm-xs-top-4 vm-md-top-6">
 			<div class="mof1-ad mof1-ad--fullWidth" style="background-image: url(<?php bloginfo('template_directory');?>/assets/src/img/castpro/Castpro-Ad-FullWidth.png);">
 				<a href="http://mof1podcast.com/castpro?utm_source=mof1podcast&utm_campaign=Castpro&utm_medium=website" title="Castpro - Your Podcast Partner" target="_blank"></a>
 			</div>
@@ -119,7 +119,7 @@ $episode_title = explode(":", $episode["title"]);
 		<div class="row signup-cta">
 			<div class="col-lg-5 vm-xxs-bottom-2 vm-lg-bottom-0">
 				<h3>Sign Up for Exclusive Content</h3>
-				<p class="big-p">Good stuff ONLY. Don’t worry... we will NOT spam you! For reals!</p>
+				<p class="big-p">Good stuff ONLY. Don’t worry... we will NOT spam you!<br />For reals!</p>
 			</div>
 			<div class="col-lg-7">
 				<div class="contact-form">
@@ -131,47 +131,50 @@ $episode_title = explode(":", $episode["title"]);
 </section>
 
 <section class="section">
-	<div class="section__bg"></div>
 	<div class="container">
-		<div class="row section__header">
-			<div class="col-lg-3 col-xl-2 vm-xxs-bottom-2 vm-lg-bottom-0">
+		<div class="row">
+			<div class="col-lg-3 col-xl-2 vm-xs-bottom-2">
 				<h2>About</h2>
-				<a href="/the-masters/" class="section__link p">Meet The Masters</a>
-			</div>
-			<div class="col-lg-8 col-xl-7">
-				<p>So what makes us the “masters” of our genre? Well, when we say we are the master in a topic, it simply means that we are incredibly passionate about that thing and that—for the context of the show—we are the “go to” for that category</p>
 			</div>
 		</div>
-		<div class="row section__content">
-			<ul class="master-list">
-				<li>
-					<div class="master-list__img">
-						<div class="abs-full u-bg-img" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Kolb-Patrick-2.jpg');"></div>
+	</div>
+	<div class="vp-xs-top-4 vp-xs-bottom-4" style="background-color: #F3F3F3;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-lg-9 col-xl-8">
+					<h5>// THE PODCAST</h5>
+					<p>Welcome to Master Of One, where every week we bring you the latest in games, design and film from our world. Listen us each Tuesday as we talk about the latest happenings around the community and what cool new item you should be spending your money on. Then listen again on Thursday when we talk with a guest celebrity artist from one of our industries. We love to talk with you, so start a conversation @mof1podcast or join the conversation happening now in Slack.</p>
+					<br />
+					<h5>// THE MASTERS</h5>
+					<p>So what makes us the “masters” of our genre? Well, when we say we are the master in a topic, it simply means that we are incredibly passionate about that thing and that—for the context of the show—we are the “go to” for that category.</p>
+				</div>
+				<div class="amaster-column">
+					<div class="amaster">
+						<div class="amaster__img">
+							<div class="the-image" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Kolb-Patrick-2.jpg');"></div>
+						</div>
+						<div class="amaster__name">
+							Patrick <span>// TV &amp; Film</span>
+						</div>
 					</div>
-					<div class="master-list__meta" style="color: #000;">
-						<p>Patrick Hill</p>
-						<h6>TV &amp; Film</h6>
+					<div class="amaster">
+						<div class="amaster__img">
+							<div class="the-image" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Kolb-Luke-2.jpg');"></div>
+						</div>
+						<div class="amaster__name">
+							Luke <span>// Toys &amp; Games</span>
+						</div>
 					</div>
-				</li>
-				<li>
-					<div class="master-list__img">
-						<div class="abs-full u-bg-img" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Kolb-Luke-2.jpg');"></div>
+					<div class="amaster">
+						<div class="amaster__img">
+							<div class="the-image" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Kolb-Andrew-2.jpg');"></div>
+						</div>
+						<div class="amaster__name">
+							Andrew <span>// Art &amp; Design</span>
+						</div>
 					</div>
-					<div class="master-list__meta" style="color: #000;">
-						<p>Luke Gaul</p>
-						<h6>Toys &amp; Games</h6>
-					</div>
-				</li>
-				<li>
-					<div class="master-list__img">
-						<div class="abs-full u-bg-img" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Kolb-Andrew-2.jpg');"></div>
-					</div>
-					<div class="master-list__meta" style="color: #000;">
-						<p>Andrew Sale</p>
-						<h6>Art &amp; Design</h6>
-					</div>
-				</li>
-			</ul>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>

@@ -1,10 +1,33 @@
 @font-face {
+  font-family: 'DIN-Medium';
+  src: url('../../src/fonts/DIN-Medium.eot');
+  src: url('../../src/fonts/DIN-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../../src/fonts/DIN-Medium.woff') format('woff'),
+       url('../../src/fonts/DIN-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
     font-family: 'ddchardware';
     src: url('../../src/fonts/ddchardware-compressed-webfont.woff2') format('woff2'),
          url('../../src/fonts/ddchardware-compressed-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+// @font-face {
+//     font-family: 'ddchardware--con';
+//     src: url('../../src/fonts/ddchardware-condensed-webfont.woff2') format('woff2'),
+//          url('../../src/fonts/ddchardware-condensed-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'ddchardware--reg';
+//     src: url('../../src/fonts/ddchardware-regular-webfont.woff2') format('woff2'),
+//          url('../../src/fonts/ddchardware-regular-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -68,7 +91,8 @@ h4, .h4 {
 }
 h5, .h5 {
     margin-bottom: 16px;
-    font-weight: 700;
+    font-family: 'ddchardware', 'Roboto', sans-serif;
+    font-size: 26px;
     line-height: 1;
 }
 h6, .h6 {
@@ -101,9 +125,10 @@ p, .p {
     }
   }
   .home & {
+    font-family: 'DIN-Medium', 'Roboto', sans-serif;
     font-size: 1.6rem;
-    font-weight: 700;
     line-height: 2.4rem;
+    font-style: italic;
     @media only screen and (min-width: 768px) {
       font-size: 1.8rem;
     }
