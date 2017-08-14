@@ -72,12 +72,16 @@ $episode_title = explode(":", $episode["title"]);
 			<div id="mof1-map"></div>
 		</div>
 		<div class="row">
-			<ul class="event-list">
-				<li><div class="evt-icn"></div>Reimagine Conference<br /><span>October 19-21</span></li>
-				<li><div class="evt-icn"></div>Pop-Up Crop<br /><span>Novemeber 3</span></li>
-				<li><div class="evt-icn"></div>Mondocon<br /><span>Novemeber 4-5</span></li>
-				<li><div class="evt-icn"></div>Creative South<br /><span>April 12-15</span></li>
-			</ul>
+			<div class="event-list-track">
+				<ul class="event-list">
+					<li><div class="evt-icn"></div>Reimagine Conference<br /><span>October 19-21</span></li>
+					<li class="type-meet"><div class="evt-icn"></div>Costa Mesa Meetup<br /><span>October 22</span></li>
+					<li><div class="evt-icn"></div>Pop-Up Crop<br /><span>Novemeber 3</span></li>
+					<li class="type-meet"><div class="evt-icn"></div>Austin Meetup<br /><span>Novemeber 4</span></li>
+					<li><div class="evt-icn"></div>Mondocon<br /><span>Novemeber 4-5</span></li>
+					<li><div class="evt-icn"></div>Creative South<br /><span>April 12-15</span></li>
+				</ul>
+			</div>
 		</div>
 		<div class="row vm-xs-top-4 vm-md-top-6">
 			<div class="mof1-ad mof1-ad--fullWidth" style="background-image: url(<?php bloginfo('template_directory');?>/assets/src/img/castpro/Castpro-Ad-FullWidth.png);">
