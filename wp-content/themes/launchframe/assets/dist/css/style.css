@@ -2949,6 +2949,10 @@ div[class*="col-"] {
     background-repeat: no-repeat;
     background-image: url("../../src/img/map/marker_events.png");
     content: ""; }
+  .event-list .type-luke .evt-icn {
+    background-image: url("../../src/img/map/marker_luke.png"); }
+  .event-list .type-luke span::after {
+    background-image: linear-gradient(to bottom right, #00a79d, #8dc63f); }
   .event-list .type-meet .evt-icn {
     background-image: url("../../src/img/map/marker_meet.png"); }
   .event-list .type-meet span::after {

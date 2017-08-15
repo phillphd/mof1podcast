@@ -56,6 +56,9 @@
                     },
                     street: {
                         icon: iconBase + 'marker_street.png'
+                    },
+                    luke: {
+                        icon: iconBase + 'marker_luke.png'
                     }
                 };
 
@@ -87,6 +90,9 @@
                     }, {
                         position: new google.maps.LatLng(37.774929, -122.419416),
                         type: 'meet'
+                    }, {
+                        position: new google.maps.LatLng(39.764536, -86.164140),
+                        type: 'luke'
                     }
                 ];
 

@@ -719,6 +719,16 @@
         background-image: url('../../src/img/map/marker_events.png');
         content: "";
     }
+    .type-luke {
+        .evt-icn {
+            background-image: url('../../src/img/map/marker_luke.png');
+        }
+        span::after {
+            background-image: -webkit-linear-gradient(top left, #00a79d, #8dc63f);
+            background-image: -o-linear-gradient(top left, #00a79d, #8dc63f);
+            background-image: linear-gradient(to bottom right, #00a79d, #8dc63f);
+        }
+    }
     .type-meet {
         .evt-icn {
             background-image: url('../../src/img/map/marker_meet.png');
