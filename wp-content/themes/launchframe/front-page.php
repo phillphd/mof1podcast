@@ -113,6 +113,7 @@ $episode_title = explode(":", $episode["title"]);
 			</div>
 			<div class="col-md-6">
 				<ul class="social-list">
+					<li><a href="http://bit.ly/mof1youtubesubscribe" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 					<li><a href="https://www.instagram.com/Mof1podcast/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 					<li><a href="https://twitter.com/Mof1podcast" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 					<li><a href="https://www.facebook.com/Mof1podcast" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
