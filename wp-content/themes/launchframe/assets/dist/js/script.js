@@ -88,11 +88,11 @@
                         position: new google.maps.LatLng(29.424122, -98.493628),
                         type: 'street'
                     }, {
-                        position: new google.maps.LatLng(37.774929, -122.419416),
+                        position: new google.maps.LatLng(34.052234, -118.243685),
                         type: 'meet'
                     }, {
-                        position: new google.maps.LatLng(39.764536, -86.164140),
-                        type: 'luke'
+                        position: new google.maps.LatLng(29.883275, -97.941394),
+                        type: 'meet'
                     }
                 ];
 

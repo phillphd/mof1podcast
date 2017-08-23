@@ -74,7 +74,6 @@ $episode_title = explode(":", $episode["title"]);
 		<div class="row">
 			<div class="event-list-track">
 				<ul class="event-list">
-					<li class="type-luke"><div class="evt-icn"></div>Gen Con 50<br /><span>August 17-20</span></li>
 					<li><div class="evt-icn"></div>Reimagine Conference<br /><span>October 19-21</span></li>
 					<li class="type-meet"><div class="evt-icn"></div>Costa Mesa Meetup<br /><span>October 22</span></li>
 					<li><div class="evt-icn"></div>Pop-Up Crop<br /><span>Novemeber 3</span></li>
