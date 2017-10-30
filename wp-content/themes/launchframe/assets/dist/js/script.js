@@ -9,7 +9,28 @@
 				return true;
 			},
 			run : function() {
-
+                $("#slack-subscribe-form").submit(function(e) {
+                    e.preventDefault();
+                    var slackTeam = "mof1podcast";
+                    var token = 'xoxp-14518901873-14520596720-45431919990-f41ac3522f';
+                    var url = 'https://'+ slackTeam + '.slack.com/api/users.admin.invite';
+                    var email = $("#slack-signup-email").val();
+                    fetch(url, { 
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+                        body: "token="+ token + "&email=" + email,
+                    })
+                    .then(function(res) {
+                        return res.text();
+                    })
+                    .then(function(body) {
+                        var output = {rawHTML: body};
+                        console.log(output);
+                    })
+                    .catch(function(data) {
+                        console.log(data);
+                    });
+                });
 			}
 		},
 		navClick : {
