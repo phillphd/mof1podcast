@@ -27,6 +27,10 @@ class ComposerStaticInitf612d75a24c8617732556009c8b8f788
             'GuzzleHttp\\Command\\' => 19,
             'GuzzleHttp\\' => 11,
         ),
+        'D' => 
+        array (
+            'Dotenv\\' => 7,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -57,6 +61,10 @@ class ComposerStaticInitf612d75a24c8617732556009c8b8f788
         'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
         ),
     );
 

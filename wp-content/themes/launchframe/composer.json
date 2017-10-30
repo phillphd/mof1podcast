@@ -1,5 +1,6 @@
 {
     "require": {
-    	"tightenco/simplecast": "0.2.1"
+    	"tightenco/simplecast": "0.2.1",
+    	"vlucas/phpdotenv": "*"
     }
 }

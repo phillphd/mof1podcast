@@ -13,4 +13,5 @@ return array(
     'GuzzleHttp\\Command\\Guzzle\\' => array($vendorDir . '/guzzlehttp/guzzle-services/src'),
     'GuzzleHttp\\Command\\' => array($vendorDir . '/guzzlehttp/command/src'),
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
+    'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
 );
