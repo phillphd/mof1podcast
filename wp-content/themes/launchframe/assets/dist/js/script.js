@@ -4,35 +4,6 @@
     var $body = $('body');
     var clickevt = (Modernizr.touch ? "touchstart" : "click");
 	var wb = {
-		setup : {
-			test : function() {
-				return true;
-			},
-			run : function() {
-                $("#slack-subscribe-form").submit(function(e) {
-                    e.preventDefault();
-                    var slackTeam = "mof1podcast";
-                    var token = 'xoxp-14518901873-14520596720-263849047252-4155032826ac8b428435842b07a92320';
-                    var url = 'https://'+ slackTeam + '.slack.com/api/users.admin.invite';
-                    var email = $("#slack-signup-email").val();
-                    fetch(url, { 
-                        method: 'POST',
-                        headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-                        body: "token="+ token + "&email=" + email,
-                    })
-                    .then(function(res) {
-                        return res.text();
-                    })
-                    .then(function(body) {
-                        var output = {rawHTML: body};
-                        console.log(output);
-                    })
-                    .catch(function(data) {
-                        console.log(data);
-                    });
-                });
-			}
-		},
 		navClick : {
             test : function(){
                 return true;
@@ -128,21 +99,6 @@
 
             }
         },
-        theModal : {
-            test : function(){
-                return true;
-            },
-            run : function() {
-                $(document).ready(function() {
-                    setTimeout(function() {
-                      $('body').addClass('open-modal');
-                    }, 2000);
-                });
-                $('.modal-close').on(clickevt, function(e){
-                    $('body').removeClass('open-modal');
-                });
-            }
-        }
 	};
 
 	for (var key in wb){
