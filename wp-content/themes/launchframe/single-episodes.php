@@ -90,8 +90,8 @@ $Parsedown = new Parsedown();
 					</ul>
 				</div>
 				<div class="row vm-xs-top-1">
-					<div class="mof1-ad mof1-ad--single" style="background-image: url(<?php bloginfo('template_directory');?>/assets/src/img/castpro/Castpro-Ad-Side.png);">
-						<a href="http://mof1podcast.com/castpro?utm_source=mof1podcast&utm_campaign=Castpro&utm_medium=website" title="Castpro - Your Podcast Partner" target="_blank"></a>
+					<div class="mof1-ad mof1-ad--single" style="background-image: url(<?php bloginfo('template_directory');?>/assets/src/img/shop/Mof1-Shop-Side-Bar_Ad.jpg);">
+						<a href="https://shop.mof1podcast.com/" title="Support the show and look good doing it." target="_blank"></a>
 					</div>
 				</div>
 			</div>

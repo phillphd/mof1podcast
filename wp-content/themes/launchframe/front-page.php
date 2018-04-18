@@ -48,7 +48,7 @@ $episode_title = explode(":", $episode["title"]);
 	<div class="container">
 		<div class="row vp-xxs-top-3 vp-xxs-bottom-2 vp-lg-top-5 vp-lg-bottom-5">
 			<div class="col-md-6 vm-xxs-bottom-2 vm-md-bottom-0">
-				<a href="https://now-examples-slackin-vhveoonyoc.now.sh/" target="_blank" class="big-button" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Slack_Button-icon.png');">Join the <strong>Community</strong> &amp; the <br /><strong>Conversation</strong> on Discord!</a>
+				<a href="/family" target="_blank" class="big-button" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Discord_Button-icon.png');">Join the <strong>Community</strong> &amp; the <br /><strong>Conversation</strong> on Discord!</a>
 			</div>
 			<div class="col-md-6">
 				<a href="https://www.patreon.com/mof1podcast" target="_blank" class="big-button" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Patreon_Button-icon.png');">Show Your <strong>Support</strong> &amp; Shape <br />Our <strong>Future</strong> on Patreon!</a>
@@ -84,8 +84,8 @@ $episode_title = explode(":", $episode["title"]);
 			</div>
 		</div>
 		<div class="row vm-xs-top-4 vm-md-top-6">
-			<div class="mof1-ad mof1-ad--fullWidth" style="background-image: url(<?php bloginfo('template_directory');?>/assets/src/img/castpro/Castpro-Ad-FullWidth.png);">
-				<a href="http://mof1podcast.com/castpro?utm_source=mof1podcast&utm_campaign=Castpro&utm_medium=website" title="Castpro - Your Podcast Partner" target="_blank"></a>
+			<div class="mof1-ad mof1-ad--fullWidth" style="background-image: url(<?php bloginfo('template_directory');?>/assets/src/img/shop/Mof1-Shop-FullWidth_Ad.jpg);">
+				<a href="https://shop.mof1podcast.com/" title="Support the show and look good doing it." target="_blank"></a>
 			</div>
 		</div>
 	</div>
