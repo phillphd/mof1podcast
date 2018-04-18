@@ -22,11 +22,9 @@
 			<div class="row">
 				<div class="col-md-12">
 					<ul>
-						<li><a href="/slack/">Slack</a></li>
 						<li><a href="mailto:patrick@mof1podcast.com">Contact</a></li>
 						<li><a href="mailto:patrick@mof1podcast.com">Sponsorship</a></li>
 						<li><a href="mailto:patrick@mof1podcast.com">Advertise</a></li>
-						<li><a href="/archive/">Archive</a></li>
 					</ul>
 				</div>
 			</div>

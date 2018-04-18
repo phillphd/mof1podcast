@@ -48,7 +48,7 @@ $episode_title = explode(":", $episode["title"]);
 	<div class="container">
 		<div class="row vp-xxs-top-3 vp-xxs-bottom-2 vp-lg-top-5 vp-lg-bottom-5">
 			<div class="col-md-6 vm-xxs-bottom-2 vm-md-bottom-0">
-				<a href="https://now-examples-slackin-vhveoonyoc.now.sh/" target="_blank" class="big-button" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Slack_Button-icon.png');">Join the <strong>Community</strong> &amp; the <br /><strong>Conversation</strong> on Slack!</a>
+				<a href="https://now-examples-slackin-vhveoonyoc.now.sh/" target="_blank" class="big-button" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Slack_Button-icon.png');">Join the <strong>Community</strong> &amp; the <br /><strong>Conversation</strong> on Discord!</a>
 			</div>
 			<div class="col-md-6">
 				<a href="https://www.patreon.com/mof1podcast" target="_blank" class="big-button" style="background-image: url('<?php bloginfo('template_directory');?>/assets/src/img/home/Patreon_Button-icon.png');">Show Your <strong>Support</strong> &amp; Shape <br />Our <strong>Future</strong> on Patreon!</a>
@@ -148,7 +148,7 @@ $episode_title = explode(":", $episode["title"]);
 			<div class="row">
 				<div class="col-md-8 col-lg-9 col-xl-8">
 					<h5>// THE PODCAST</h5>
-					<p>Welcome to Master Of One, where every week we bring you the latest in games, design and film from our world. Listen us each Tuesday as we talk about the latest happenings around the community and what cool new item you should be spending your money on. Then listen again on Thursday when we talk with a guest celebrity artist from one of our industries. We love to talk with you, so start a conversation @mof1podcast or join the conversation happening now in Slack.</p>
+					<p>Welcome to Master Of One, where every week we bring you the latest in games, design and film from our world. Listen us each Tuesday as we talk about the latest happenings around the community and what cool new item you should be spending your money on. Then listen again on Thursday when we talk with a guest celebrity artist from one of our industries. We love to talk with you, so start a conversation @mof1podcast or <a href="/family" target="_blank">join the conversation</a> happening now in Discord.</p>
 					<br />
 					<h5>// THE MASTERS</h5>
 					<p>So what makes us the “masters” of our genre? Well, when we say we are the master in a topic, it simply means that we are incredibly passionate about that thing and that—for the context of the show—we are the “go to” for that category.</p>

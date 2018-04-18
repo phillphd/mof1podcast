@@ -23,6 +23,7 @@ class ClientFactory
         $description = self::getDescriptionFromConfig($config);
 
         $guzzleClient = new GuzzleClient($client, $description);
+        $client->setDefaultOption('verify', false);
 
         $guzzleClient->setConfig(
             'defaults/api_version',

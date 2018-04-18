@@ -1,8 +1,4 @@
 <?php
-$cookie_name = "sw_modal";
-$cookie_value = "true";
-setcookie($cookie_name, $cookie_value, time() + (604800 * 30), "/"); // 604800 = 7 days
-
 /**
  * The header for our theme.
  *
@@ -38,8 +34,6 @@ setcookie($cookie_name, $cookie_value, time() + (604800 * 30), "/"); // 604800 =
 </head>
 
 <body <?php body_class(); ?>>
-
-<?php if(!isset($_COOKIE['sw_modal']) && !is_page('reimagine')) { ?><?php } ?>
 
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'launchframe' ); ?></a>
