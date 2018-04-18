@@ -84,7 +84,7 @@ $episode_title = explode(":", $episode["title"]);
 			</div>
 		</div>
 		<div class="row vm-xs-top-4 vm-md-top-6">
-			<div class="mof1-ad mof1-ad--fullWidth" style="background-image: url(<?php bloginfo('template_directory');?>/assets/src/img/shop/Mof1-Shop-FullWidth_Ad.jpg);">
+			<div class="mof1-ad mof1-ad--fullWidth" style="background-image: url(<?php bloginfo('template_directory');?>/assets/src/img/shop/Mof1-Shop-Fullwidth_Ad.jpg);">
 				<a href="https://shop.mof1podcast.com/" title="Support the show and look good doing it." target="_blank"></a>
 			</div>
 		</div>
