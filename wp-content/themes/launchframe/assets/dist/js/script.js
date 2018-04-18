@@ -12,7 +12,7 @@
                 $("#slack-subscribe-form").submit(function(e) {
                     e.preventDefault();
                     var slackTeam = "mof1podcast";
-                    var token = 'OBSCURE_SLACK_TOKEN';
+                    var token = 'xoxp-14518901873-14520596720-263849047252-4155032826ac8b428435842b07a92320';
                     var url = 'https://'+ slackTeam + '.slack.com/api/users.admin.invite';
                     var email = $("#slack-signup-email").val();
                     fetch(url, { 
